@@ -13,14 +13,14 @@ Knowledge vault for Johns Hopkins Center for Humanitarian Health (CHH) grant and
 1. `CORTEX.md` — folder contract and guardrails
 2. `wiki/partnerships/chh.md` — pilot scope, IT matrix, curator rules
 3. `TASKS.md` — CHH team task list (empty template — fill locally)
-4. `_system/AGENTS-AND-SKILLS.md` — skill index
+4. `_system/CHH-CAPABILITIES.md` — feature map (lite vs HERA-maintained)
 
 ## Step 2 — Folder structure
 
 ```
 chh-cortex/
 ├── ENTRY.md           this file
-├── CLAUDE.md          Claude Code instructions
+├── CLAUDE.md          AI workspace guide (for folder-mounted assistants)
 ├── raw/               source material (append-only)
 ├── wiki/              curated CHH knowledge
 ├── skills/            runnable workflows
@@ -35,6 +35,7 @@ chh-cortex/
 | Grant drafting | `skills/grant-writer/SKILL.md` |
 | Grant review | `skills/grant-red-team-reviewer/SKILL.md` |
 | Meeting triage | `skills/transcript-triage/SKILL.md` |
+| Wiki promotion | `skills/knowledge-curator/SKILL.md` |
 | Ambiguous routing | `skills/context-navigator/SKILL.md` |
 
 ## Example workbench

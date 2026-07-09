@@ -1,90 +1,77 @@
 ---
 name: chh-onboarding
-description: Setup wizard for Johns Hopkins CHH Cortex lite — Cowork plug-and-play track (~30 min) or Claude Code technical track (half day). Run when Paul, Manny, or CHH staff first open the repo, say "get me started", or ask how to set this up.
+description: Setup wizard for Johns Hopkins CHH Cortex — faculty track (~30 min) or technical-owner track (half day). Run when CHH staff first open the repo or say "get me started".
 ---
 
 # CHH Onboarding
 
-Use when a CHH user (Manny, Paul, William, or delegate) first sets up CHH Cortex lite.
+Use when a CHH user (Manny, Paul, William, or delegate) first sets up CHH Cortex.
 
 ## Required reads
 
 1. `_system/CHH-INSTALL.md`
-2. `wiki/partnerships/chh.md`
-3. `ENTRY.md`
+2. `_system/CHH-CAPABILITIES.md`
+3. `wiki/partnerships/chh.md`
+4. `ENTRY.md`
 
 ## Step 0 — Pick the track
 
-Ask one question: **"Are you in the Claude desktop app (Cowork) or Claude Code?"**
+Ask: **"Will you use git and a full workspace setup, or folder sync only?"**
 
-- **Cowork** → Track A below. The user is likely non-technical (Paul): no terminal, no git, plain language, one step at a time. If the folder is already mounted, environment setup is done — skip straight to orientation.
-- **Claude Code** → Track B (full checklist, Phases A–E). This is the technical-owner path (Manny).
+- **Folder only** → Track A (faculty / Paul). No terminal, no git.
+- **Git + workspace** → Track B (technical owner / Manny).
 
-## Track A — Cowork wizard (~30 min, Paul-friendly)
+## Track A — Folder wizard (~30 min)
 
-Run conversationally, one step per message, confirming each before moving on:
+Run conversationally, one step per message:
 
-1. **Confirm the vault is loaded** — summarize `ENTRY.md` in 3 plain-language bullets and name the 6 available skills
-2. **Orientation** — walk through `wiki/partnerships/chh.md` (what this pilot does and doesn't do) and `raw/proposals/example-chh-rfp-2026/` (the fictional example workbench)
-3. **First win** — ask the user to paste any recent meeting note or transcript into chat; run `skills/transcript-triage/SKILL.md` on it and save the result to `raw/meetings/` using `raw/meetings/_template/README.md`
-4. **Grant demo** — say back: try *"I am working on example-chh-rfp-2026"* and boot the workbench
-5. **Honest limits** — state Phase E limits below in plain language (no Outlook auto-ingest, no Hopkins email access)
-6. **Close** — emit the Output section below; flag anything needing Manny or the HERA tech lead
+1. **Confirm vault loaded** — summarize `ENTRY.md` in 3 plain bullets; name the six skills
+2. **Orientation** — `wiki/partnerships/chh.md` + `raw/proposals/example-chh-rfp-2026/`
+3. **Capabilities** — summarize `_system/CHH-CAPABILITIES.md` (what is included vs HERA-maintained)
+4. **First win** — user pastes a meeting note; run `skills/transcript-triage/SKILL.md`; save to `raw/meetings/`
+5. **Grant demo** — *I am working on example-chh-rfp-2026*
+6. **Honest limits** — no Outlook auto-ingest; no background automation in lite repo
+7. **Close** — emit Output section; flag blockers for Manny or HERA tech lead
 
-Never send a Cowork user to the terminal. If a step needs git or file plumbing, log it as a blocker for Manny instead.
+Never send Track A users to the terminal.
 
-## Track B — Claude Code checklist (run in order)
+## Track B — Technical checklist
 
 ### Phase A — Environment (30 min)
 
-- [ ] Clone `Cortexto/chh-cortex` per `_system/CHH-INSTALL.md` §2b (HTTPS)
-- [ ] Open repo root as Claude Code workspace
-- [ ] Confirm `CLAUDE.md` loads (ask: summarize routing rules in 3 bullets)
-- [ ] Review `.claude-plugin/plugin.json` (metadata stub v0.2 — skills load from repo paths)
+- [ ] Clone per `_system/CHH-INSTALL.md` §2b
+- [ ] Open repo root as workspace
+- [ ] Confirm `ENTRY.md` + skills index load
 
-### Phase B — Vault orientation (20 min)
+### Phase B — Orientation (20 min)
 
-- [ ] Read `wiki/partnerships/chh.md` — IT matrix and pilot ask
-- [ ] Browse `raw/proposals/example-chh-rfp-2026/` — fictional example workbench
-- [ ] Browse `wiki/entities/people/` — CHH roster
+- [ ] Read `wiki/partnerships/chh.md` and `CHH-CAPABILITIES.md`
+- [ ] Browse `example-chh-rfp-2026/` and `wiki/entities/people/`
 
 ### Phase C — First actions (60 min)
 
-- [ ] Paste a sample meeting note into `raw/meetings/` using `_template/`
-- [ ] Run transcript-triage on the sample
-- [ ] Boot example workbench: *I am working on example-chh-rfp-2026*
-- [ ] Copy `_template-chh-rfp` to a test slug; fill DECISION-CHART stub
+- [ ] Paste sample meeting → transcript-triage
+- [ ] Boot example workbench
+- [ ] Copy `_template-chh-rfp` to test slug
+- [ ] Run knowledge-curator on one approved promotion
 
-### Phase D — Data sync (optional, 60 min)
+### Phase D — Data sync (optional)
 
-- [ ] Identify CHH proposal folder (SharePoint/OneDrive — Sanny tracker)
-- [ ] Set up Google Drive sync path per CHH-INSTALL §4
-- [ ] Curator reviews one proposal file before adding to `raw/proposals/`
+- [ ] Google Drive path per CHH-INSTALL §4
 
-### Phase E — Honest limits acknowledgment
+### Phase E — Limits
 
-Confirm user understands v0.2 **does not**:
-
-- Auto-connect Outlook calendar or Hopkins email
-- Replace Hopkins GPT for all tasks
-- Export person-observation or negotiation mining
+Confirm v0.2 does not include: Outlook auto-ingest, HERA background automation, person-observation mining.
 
 ## Output
 
-After checklist, emit:
-
-1. **Setup status** — which phases complete
-2. **Blockers** — IT, procurement, curator assignment
-3. **Recommended pilot workflow** — RFP packaging default unless Paul chooses IRB/reporting
-4. **Next call topics** for HERA tech lead if blocked
+1. Setup status  
+2. Blockers  
+3. Recommended pilot workflow (RFP default)  
+4. Next topics for HERA tech lead if blocked  
 
 ## Handoff
 
-- Grant drafting → `skills/grant-writer/SKILL.md`
-- Ambiguous tasks → `skills/context-navigator/SKILL.md`
-
-## Source(s)
-
-- `_system/CHH-INSTALL.md`
-- `wiki/partnerships/chh.md`
-- Jul 8 demo transcript — Manny: "key thing is streamlining knowledge into MD"
+- Grant drafting → `skills/grant-writer/SKILL.md`  
+- Wiki promotion → `skills/knowledge-curator/SKILL.md`  
+- Routing → `skills/context-navigator/SKILL.md`

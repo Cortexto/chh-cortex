@@ -1,22 +1,24 @@
-# CHH Cortex — Claude Instructions
+# CHH Cortex — AI workspace guide
 
-This is the CHH Cortex lite vault for Johns Hopkins Center for Humanitarian Health.
+Instructions for any AI assistant working inside this vault (folder-mounted chat, coding workspace, or equivalent).
 
-## Works in
+**First session with a new user:** offer `skills/chh-onboarding/SKILL.md` before anything else.
 
-- **Claude desktop (Cowork)** — plug and play: add this folder to a Cowork session, then say *Read CLAUDE.md and get me started*. No terminal or git needed.
-- **Claude Code** — open this folder as the workspace root; this file loads automatically.
-- **Cursor** (optional) — same folder, same rules.
+## How to open this vault
 
-First session with a new user: offer `skills/chh-onboarding/SKILL.md` before anything else.
+1. **Non-technical users** — sync or download the folder (see `_system/CHH-INSTALL.md` Track A), mount it in your organization's approved AI tool, then read `ENTRY.md`.
+2. **Technical owner** — clone from GitHub, open the repo root as the workspace, then read `ENTRY.md`.
+
+Do not require a specific vendor product name in user-facing setup docs.
 
 ## Startup reads
 
 1. `ENTRY.md`
 2. `wiki/partnerships/chh.md`
 3. `_system/CHH-INSTALL.md` (when setting up)
+4. `_system/CHH-CAPABILITIES.md` (what is in scope for CHH vs HERA-maintained)
 
-## Mandatory route line
+## Route line (for assistants)
 
 For substantive tasks, begin with:
 
@@ -46,7 +48,3 @@ When user says **I am working on [proposal]** under `raw/proposals/`:
 - Mark unsupported claims `verify` or `needs source`
 - No PII/PHI in vault writes
 - Do not write outside this repo
-
-## Plugin
-
-`chh-cortex-code` metadata lives at `.claude-plugin/plugin.json`. If local plugin install is unavailable, use the skill paths above directly.

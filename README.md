@@ -10,9 +10,9 @@ Built from [HERA Cortex](https://github.com/Cortexto/hera-cortex) patterns — s
 
 | Role | Start here |
 |------|------------|
-| **Manny / CHH technical** | `_system/CHH-INSTALL.md` |
-| **Paul / faculty** | Ask Claude: *Read ENTRY.md and summarize the pilot scope* |
-| **AI assistant** | `ENTRY.md` → `CLAUDE.md` |
+| **CHH technical owner** | `_system/CHH-INSTALL.md` |
+| **Faculty / program lead** | `ENTRY.md`, then `_system/CHH-INSTALL.md` Track A |
+| **First session** | Open this folder in your approved AI workspace and read `ENTRY.md` |
 
 ## First prompts
 
@@ -21,8 +21,12 @@ Read ENTRY.md, then explain how to start a grant workbench for a new CHH RFP.
 ```
 
 ```
-Use skills/chh-onboarding/SKILL.md and walk me through half-day setup on this Mac.
+Use skills/chh-onboarding/SKILL.md and walk me through setup.
 ```
+
+## What this repo includes
+
+See `_system/CHH-CAPABILITIES.md` for the full feature map (grant workbench, knowledge promotion, triage) and what remains HERA-maintained during the pilot.
 
 ## Pilot scope
 
@@ -34,16 +38,14 @@ One CHH workflow with curator-owner and approval gates:
 
 Full dossier: `wiki/partnerships/chh.md`
 
-## Release gate
-
-Before partner GitHub invite: run `_system/RELEASE-GATE.md` — build + verify must exit 0.
-
-## Honest limits (v0.2)
+## Honest limits
 
 - No automatic Outlook/calendar ingest (Hopkins IT)
 - Manual paste for emails and meeting transcripts
 - Google Drive folder sync documented in CHH-INSTALL
+- Background automation and self-improvement loops are **HERA-maintained**, not shipped in this lite repo
 
 ## Support
 
-HERA Digital Health — tech lead for Cortex patterns. Contact Berktuğ Kubuk (b.kubuk@medak.org.tr).
+HERA Digital Health — tech lead for Cortex patterns.  
+Contact: Berktuğ Kubuk — berktug@heradigitalhealth.org
