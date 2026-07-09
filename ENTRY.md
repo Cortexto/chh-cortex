@@ -10,7 +10,7 @@ Knowledge vault for Johns Hopkins Center for Humanitarian Health (CHH) grant and
 
 ## Step 1 — Read these first
 
-1. **`CHH-ROADMAP.md`** — pain points, raw vs wiki, what is included, demo, phases
+1. **`CHH-ROADMAP.md`** — pain points, contextual awareness, email population, six layers, learning loop, tailored grant tool, phases
 2. `CORTEX.md` — folder contract (short)
 3. `wiki/partnerships/chh.md` — pilot scope and curator rules
 4. `_system/CHH-INSTALL.md` — install (Track A = no terminal)
