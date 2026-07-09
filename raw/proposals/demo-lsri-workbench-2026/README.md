@@ -1,56 +1,52 @@
 ---
-name: LSRI Individual Award — DEMO WALKTHROUGH
-description: Sanitized teaching copy — shows Cortex grant routes; NOT a live submission
+name: JHU LSRI High-Impact Individual Award 2026
+description: Active workbench for JHU Life Sciences Research Initiative — Individual Award ($200k–$500k). Shatha PI; demo-driven unpark 2026-07-07.
 type: proposal-package
-status: demo-walkthrough
-station: demo
-updated: 2026-07-09
+status: active
+station: S1
+station_note: Intake complete; hypothesis brief + narrative skeleton for CHH demo Jul 8; Shatha-owned PDF by Jul 15
+updated: 2026-07-07
 ---
 
-# Demo — JHU LSRI–style individual award workbench
+# JHU LSRI Individual Award — Proposal Package
 
-> **DEMO ONLY** — This folder teaches how CHH Cortex routes a real-shaped JHU grant package. Content is sanitized and outdated on purpose. **Do not submit.** For your RFP, copy `_template-chh-rfp/`.
+## Start here (any IDE)
 
-## Boot phrase
+Say: **I am working on jhu-lsri-individual-2026** — agent reads README `station:` → `_system/stage-contracts/S1-pre-flight.md`, then `DECISION-CHART.md`, `BRAINSTORM-LEDGER.md`, `REVISION-LOG.md`, `AGENT-HANDOFF.md`.
 
-```
-I am working on demo-lsri-workbench-2026
-```
+Claude cold start: paste `_system/handoffs/active-proposal-bootstrap.md` (add § jhu-lsri when landed).
 
-The assistant should read, in order:
+Peer review loop: say **go comment** — `BRAINSTORM-LEDGER.md` Peer Comment Loop, max four rounds.
 
-1. This README
-2. `HOW-TO-USE.md`
-3. `DECISION-CHART.md` — route locks and blockers
-4. `DONOR-DOSSIER.md` — must-prove / kill list
-5. `REVISION-LOG.md` — example human feedback
-6. `hypothesis-brief.md` — competing hypotheses (educational)
-7. `narrative-skeleton.md` — section outline
+**Executor skill:** `skills/grant-writer/SKILL.md` (internal JHU RFP — no dedicated executor yet)
 
-## What this demonstrates
+**Opportunity hub:** `wiki/opportunities/jhu-life-sciences-research-initiative-2026.md`
 
-| Cortex concept | File |
-|----------------|------|
-| Canonical route | `DECISION-CHART.md` |
-| Donor/reviewer lens | `DONOR-DOSSIER.md` |
-| Human revision memory | `REVISION-LOG.md` |
-| Strategic forks | `hypothesis-brief.md` |
-| Assembly scaffold | `narrative-skeleton.md` |
+**Decision doc:** `wiki/concepts/decisions/2026-07-02-jhu-lsri-individual-award-strategy.md`
 
-## Try these prompts
+**Canonical route:** `DECISION-CHART.md`
 
-```
-I am working on demo-lsri-workbench-2026 — give me a boot summary: locks, must-prove, open blockers.
-```
+## File Map
 
-```
-Using demo-lsri-workbench-2026, decode the transformative-potential section — field job, reviewer check, trap.
-```
+| File | Role |
+|------|------|
+| `DONOR-DOSSIER.md` | JHU-internal reviewer lens (Weeraratna criteria); status `draft` |
+| `DECISION-CHART.md` | Canonical route: locks, blockers, boundaries |
+| `BRAINSTORM-LEDGER.md` | Hypothesis forks, open questions, merge decisions |
+| `REVISION-LOG.md` | Berktuğ in-chat revision feedback |
+| `AGENT-HANDOFF.md` | Cross-agent audit ledger |
+| `lsri-hypothesis-brief.md` | Working hypothesis A/B + Shatha gates |
+| `lsri-narrative-skeleton.md` | 4-page PDF outline (Shatha-owned final) |
 
-```
-Run skills/grant-red-team-reviewer/SKILL.md on one paragraph from narrative-skeleton.md.
-```
+## Current Status
+
+**Unparked 2026-07-07** for JHU CHH Cortex demo (8 Jul 09:00 EDT). Workbench bootstrapped via go ultracode fleet. Hypothesis **not locked** — Fork B demo lean pending Aral verify. Full narrative PDF owned by **Shatha** for **15 Jul 11:59 PM** InfoReady submit.
+
+**CHH demo:** Use this package as live Cortex trail — see `raw/drafts/jhu-chh-demo-runbook-2026-07-08.md`.
 
 ## Source(s)
 
-- Sanitized from JHU LSRI individual-award **shape** for CHH Cortex demo (2026-07-09)
+- `raw/capture-logs/2026-07-02-jhu-infoready-rfp-resilience-and-lsri-individual.md`
+- `wiki/opportunities/jhu-life-sciences-research-initiative-2026.md`
+- `wiki/concepts/decisions/2026-07-02-jhu-lsri-individual-award-strategy.md`
+- `raw/meetings/2026-07-02_jhu-research-funding-opportunities-shatha-call-transcript.md`

@@ -56,7 +56,7 @@ Workflows (portal gate, donor lens, cross-tool ledger): `wiki/concepts/workflow/
 
 Say: **`I am working on demo-lsri-workbench-2026`**
 
-Read `HOW-TO-USE.md` inside that folder first.
+Read `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md` first.
 
 ## Guardrails
 

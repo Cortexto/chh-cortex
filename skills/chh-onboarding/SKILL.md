@@ -21,7 +21,7 @@ description: Setup wizard for Johns Hopkins CHH Cortex — faculty track (~30 mi
 
 1. **Confirm vault loaded** — explain **raw vs wiki** in plain language (from CHH-ROADMAP)
 2. **Pain map** — one row from CHH-ROADMAP that matches their role
-3. **Demo** — *I am working on demo-lsri-workbench-2026* + read HOW-TO-USE
+3. **Demo** — read `demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`, then boot the full LSRI package
 4. **First win** — paste meeting or curator-selected email → triage → `raw/meetings/` or `raw/email/`
 5. **Honest limits** — no Outlook OAuth; no background bots in this repo
 6. **Close** — blockers for Manny or berktug@heradigitalhealth.org

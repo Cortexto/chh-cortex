@@ -76,11 +76,11 @@ Pattern updates arrive when HERA re-syncs **this** repo (`Cortexto/chh-cortex`) 
 
 ## Try the demo (5 minutes)
 
-1. Open this folder in your AI tool.
-2. Say: **`I am working on demo-lsri-workbench-2026`**
-3. Read `raw/proposals/demo-lsri-workbench-2026/HOW-TO-USE.md` — it shows decision chart, donor lens, revision log, and routes **without** being a live submission.
+1. Open **`raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`**
+2. Browse the full package (same complexity as live HERA LSRI work — ledgers, submission folder, portal fill pack)
+3. Say: **`I am working on demo-lsri-workbench-2026`**
 
-Then copy `raw/proposals/_template-chh-rfp/` for your real RFP.
+Some wiki links inside those files will not resolve in CHH lite — that is expected.
 
 ---
 
