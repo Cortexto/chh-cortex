@@ -1,6 +1,6 @@
 ---
 name: Makieba Duff
-description: Scheduling coordinator, JHMI — Paul Spiegel Cortex demo thread.
+description: Scheduling coordinator, JHMI.
 type: person
 organization: Johns Hopkins University
 updated: 2026-07-09

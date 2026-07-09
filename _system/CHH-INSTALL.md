@@ -1,6 +1,6 @@
 ---
 name: CHH Cortex — Team Install
-description: Half-day onboarding for JHU CHH — Claude Code primary, Google Drive sync, honest IT limits.
+description: Onboarding for JHU CHH — Cowork plug-and-play track for Paul, Claude Code track for technical setup, Google Drive sync, honest IT limits.
 type: system
 updated: 2026-07-09
 ---
@@ -8,30 +8,42 @@ updated: 2026-07-09
 # CHH Cortex — Install guide
 
 **Audience:** Manny Kim, Paul Spiegel, William Weiss, CHH staff  
-**Time:** ~4 hours first setup; ~30 min per additional user  
-**Primary tool:** Claude Code + `chh-cortex-code` plugin
+**Two tracks:** Track A (Cowork, ~30 min, no terminal — Paul and non-technical staff) · Track B (Claude Code, ~half day — Manny / technical owner)  
+**Skills load from repo paths in both tracks;** `.claude-plugin/plugin.json` is a metadata stub (v0.2), not something you install.
 
 ## 1 — Prerequisites
 
 - Mac (Paul's preferred: one dedicated center laptop)
-- GitHub access to `Cortexto/chh-cortex` (private)
-- Claude Code or Claude desktop with code workspace
+- GitHub access to `Cortexto/chh-cortex` (private) — accept the emailed collaborator invite first
+- Claude desktop app (Cowork) for Track A; Claude Code for Track B
 - Optional: Cursor for IDE parity
 - Optional: Google Drive desktop sync for proposal corpus
 
-## 2 — Clone repo
+## 2 — Track A: Cowork, no terminal (Paul)
+
+1. Get the folder once — either of:
+   - Ask Manny/HERA to put the `chh-cortex` folder in the center Google Drive and sync it locally, or
+   - On github.com open Cortexto/chh-cortex → green **Code** button → **Download ZIP** → unzip somewhere easy to find (Documents works)
+2. Open the Claude desktop app → start a **Cowork** session → add the `chh-cortex` folder
+3. Say: *Read CLAUDE.md and get me started* — Claude runs the onboarding wizard from there
+
+That's the whole install. Updates arrive by replacing the folder (Manny re-syncs from GitHub); Paul never touches git.
+
+## 2b — Track B: Clone repo (Manny / technical owner)
 
 ```bash
-git clone git@github.com:Cortexto/chh-cortex.git
+git clone https://github.com/Cortexto/chh-cortex.git
 cd chh-cortex
 ```
 
+(SSH `git@github.com:Cortexto/chh-cortex.git` also works if you already use SSH keys.)
+
 Open `chh-cortex/` as workspace root (not parent folder).
 
-## 3 — Claude Code + plugin
+## 3 — Claude Code + plugin (Track B)
 
 1. Open Claude Code from `chh-cortex/` folder
-2. Install local plugin: `.claude-plugin/plugin.json` (`chh-cortex-code`)
+2. Review plugin stub: `.claude-plugin/plugin.json` (`chh-cortex-code` v0.2 — skills load from repo)
 3. Verify: ask *"Read ENTRY.md and list available skills"*
 
 Or run onboarding skill:
@@ -53,13 +65,13 @@ Paul/William discussed syncing consolidated proposals:
 
 ### Paste a meeting transcript
 
-1. Save to `raw/meetings/YYYY-MM-DD_topic.md` (see `_template/`)
+1. Save to `raw/meetings/` using the paste template in `raw/meetings/_template/README.md`
 2. Prompt: `Use skills/transcript-triage/SKILL.md and triage this meeting`
 
 ### Open example grant workbench
 
 ```
-I am working on jhu-lsri-individual-2026 — boot the workbench and decode the donor dossier.
+I am working on example-chh-rfp-2026 — boot the workbench and decode the donor dossier.
 ```
 
 ### Start new CHH RFP
@@ -100,9 +112,8 @@ cp -r raw/proposals/_template-chh-rfp raw/proposals/my-grant-slug-2026
 ## 9 — Support
 
 HERA Digital Health (tech lead): Berktuğ Kubuk — b.kubuk@medak.org.tr  
-Pattern updates: periodic re-sync from HERA Cortex via `scripts/build_chh_lite.py`
+Pattern updates: HERA maintainer re-syncs from canonical Cortexto/hera-cortex vault (build script lives there — not in this repo).
 
 ## Source(s)
 
 - `wiki/partnerships/chh.md`
-- `raw/meetings/2026-07-08_jhu-chh-cortex-demo-transcript.md`

@@ -3,99 +3,78 @@ name: CHH Cortex Lite — Sanitization Manifest
 description: Allowlist and strip rules for exporting HERA Cortex → Cortexto/chh-cortex
 type: export-manifest
 updated: 2026-07-09
+version: 0.2
 upstream: Cortexto/hera-cortex
 downstream: Cortexto/chh-cortex
 ---
 
-# CHH Cortex Lite — Sanitization Manifest
+# CHH Cortex Lite — Sanitization Manifest (v0.2)
 
-Build command:
+## Build + verify (mandatory)
 
 ```bash
 python3 scripts/build_chh_lite.py \
   --source /path/to/hera-cortex/cortex \
   --output /path/to/chh-cortex
+
+python3 scripts/verify_chh_export.py /path/to/chh-cortex
 ```
+
+Both must exit 0 before GitHub invite. See `_system/RELEASE-GATE.md`.
+
+## v0.2 changes
+
+- **Templates-only export** — skills, people, partnership, example workbench from `_system/chh-cortex-lite/templates/`
+- **No live LSRI strategy** — replaced by fictional `example-chh-rfp-2026/`
+- **No HERA skill copy** — CHH-native thin skills with verified Required Reads
+- **Failing QA** — build script exits 1 on content leaks or missing paths
 
 ## Strip (never export)
 
 | Pattern | Reason |
 |---------|--------|
-| `wiki/observations/**` | Person negotiation intel; Paul flagged on demo |
-| `_system/state/**` | HERA automation secrets |
-| `_system/HOT_CACHE.md` | HERA internal priorities |
-| `_system/live/**` | Berktuğ personal automations |
-| `raw/email/**` (full archive) | Sensitive |
-| `raw/fireflies/**` (full archive) | HERA internal meetings |
-| HERA-only proposals (IRUSA, AWS, DIV, UNHCR, etc.) | Not JHU joint |
-| `raw/proposals/jhu-lsri-individual-2026/submission/**` | Live PDFs/DOCX |
-| `raw/proposals/jhu-lsri-individual-2026/BRAINSTORM-LEDGER.md` | Internal hypothesis forks |
-| `raw/proposals/jhu-lsri-individual-2026/AGENT-HANDOFF.md` | Internal agent audit |
-| `raw/proposals/jhu-lsri-individual-2026/REVISION-LOG.md` | Berktuğ internal feedback |
-| `rowboat_source` frontmatter keys | Legacy traceability — strip on copy |
-| Berktuğ PhD / RWJF / internal gate sections on Shatha card | CHH-facing only |
+| `wiki/observations/**` | Person negotiation intel |
+| `_system/state/**`, `_system/HOT_CACHE.md`, `_system/live/**` | HERA internal ops |
+| `raw/email/**`, `raw/fireflies/**` (full archive) | Sensitive |
+| HERA-only proposals (IRUSA, AWS, DIV, UNHCR, etc.) | Not CHH joint |
+| Live LSRI package internals | Use synthetic example instead |
+| `rowboat_source` frontmatter | Strip on copy |
 
-## Keep (allowlist)
+## Keep (generated from templates)
 
-### Skills
+### Skills (CHH-native)
 
-- `skills/grant-writer/SKILL.md` (CHH-adapted header in output)
+- `skills/grant-writer/SKILL.md`
 - `skills/grant-red-team-reviewer/SKILL.md`
 - `skills/transcript-triage/SKILL.md`
 - `skills/knowledge-curator/SKILL.md`
 - `skills/context-navigator/SKILL.md`
-- `skills/chh-onboarding/SKILL.md` (generated)
+- `skills/chh-onboarding/SKILL.md`
 
-### Wiki — partnerships & workflow
+### Wiki
 
-- `wiki/partnerships/jhu-chh-cortex-pilot.md` → `wiki/partnerships/chh.md`
-- `wiki/concepts/workflow/grant-proposal-workbench.md` (if exists, else stub)
-- `wiki/opportunities/jhu-life-sciences-research-initiative-2026.md` (public criteria)
-- `wiki/projects/connect2care-google-org.md` (from starter bundle)
+- `wiki/partnerships/chh.md`
+- `wiki/concepts/workflow/chh-grant-writing-process.md`
+- `wiki/concepts/workflow/grant-proposal-workbench.md`
+- `wiki/principles/chh-grant-voice.md`
+- `wiki/entities/people/*` (sanitized templates)
 
-### Wiki — people (see PEOPLE-ROSTER.md)
+### Raw
 
-Export with strip rules applied.
+- `raw/proposals/example-chh-rfp-2026/**` (fictional)
+- `raw/proposals/_template-chh-rfp/**` (empty scaffold)
+- `raw/meetings/_template/README.md`
 
-### Raw — proposals
+## QA enforced by scripts
 
-| Path | Notes |
-|------|-------|
-| `raw/proposals/jhu-lsri-individual-2026/README.md` | Adapt station note |
-| `raw/proposals/jhu-lsri-individual-2026/DECISION-CHART.md` | Full |
-| `raw/proposals/jhu-lsri-individual-2026/DONOR-DOSSIER.md` | Sections 2 only → replace with sanitized lens |
-| `raw/proposals/jhu-lsri-individual-2026/lsri-narrative-skeleton.md` | Full |
-| `raw/proposals/jhu-lsri-individual-2026/lsri-hypothesis-brief.md` | Strip Aral trainee internal notes |
-| `raw/proposals/_template-chh-rfp/**` | Generated empty scaffold |
+- Forbidden content patterns (see `verify_chh_export.py`)
+- All skill Required Reads exist in output
+- Boot chain paths in ENTRY/README/CHH-INSTALL exist
+- Broken `[[wikilinks]]` fail verify
 
-### Raw — meetings
+## Before GitHub invite
 
-- `raw/meetings/_template/README.md` — paste instructions only
-
-### System
-
-- `_system/CHH-INSTALL.md` (generated)
-- `_system/SANITIZATION-MANIFEST.md` (this file copy)
-- `_system/adapters/claude-code.md` (adapt from HERA)
-- `_system/AGENTS-AND-SKILLS.md` (CHH subset)
-
-## Post-copy transforms
-
-1. Remove lines matching `^rowboat_source:`
-2. Replace `HERA Cortex` → `CHH Cortex` in ENTRY/README where audience-facing
-3. Grep output for forbidden tokens: `wiki/observations`, `negotiation style`, `berktug-signals`, `aral-signals`
-4. Replace LSRI `DONOR-DOSSIER.md` body with sanitized reviewer lens from manifest template
-
-## QA checklist (before GitHub invite)
-
-- [ ] No `wiki/observations/` paths in repo
-- [ ] No live submission PDFs/DOCX
-- [ ] No HERA email raw files
-- [ ] Shatha card has no PhD committee section
-- [ ] Plugin loads without HERA vault path
-- [ ] `skills/chh-onboarding/SKILL.md` runs end-to-end read test
-
-## Source(s)
-
-- Plan: CHH Cortex Lite (2026-07-09)
-- Template: `raw/drafts/jhu-chh-notebooklm-upload-sanitized-dossier.md`
+- [ ] `build_chh_lite.py` exit 0
+- [ ] `verify_chh_export.py` exit 0
+- [ ] Manny call confirms curator + Mac + Drive (no repo required)
+- [ ] User says **go invite**

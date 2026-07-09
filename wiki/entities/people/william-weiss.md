@@ -1,47 +1,22 @@
 ---
 name: William Weiss
-description: Professor, JHU Department of International Health. Digital health and health information systems. CHH Cortex demo participant.
+description: International Health / HIS at JHU. Hopkins GPT and digital health stakeholder.
 type: person
-role: Professor
-organization: Johns Hopkins University — Department of International Health / CHH
-relationship: partner
-email: wweiss1@jhu.edu
-tags:
-  - person/partner
-  - person/academic
-  - jhu
-  - chh-cortex
+organization: Johns Hopkins University
 updated: 2026-07-09
 ---
 
-# William Weiss ("Bill")
+# William Weiss
 
-**Email:** wweiss1@jhu.edu  
-**Org:** Johns Hopkins University — Department of International Health  
-**Role:** Professor; teaches digital health course; former USAID digital health advisor; focus on **health information systems**
+**Role:** International Health / health information systems (JHU)
 
-## Cortex demo (2026-07-08)
+## CHH Cortex context
 
-Joined Paul Spiegel's CHH Cortex walkthrough. Key contributions:
-
-- Asked what **core data** Cortex ingests (proposals, meeting notes, announcements, emails, web)
-- Explained **Hopkins GPT / Hopkins Lab** constraints: sessions retained ~30 days; export options poor (text file or session image — tables/visualizations lost)
-- Recalled IT recommendation (~1 year ago): **pull data together into a trusted place first** — CHH has done proposals; datasets still pending
-- Raised **MoU with HERA** (like IAPS and other partners)
-- Open to Google Drive sync + Hopkins GPT if folder-access model works
-
-## Technical posture
-
-- Uses Hopkins institutional AI portal for multi-model access within same session
-- Pragmatic on cost: center business accounts for Claude vs Hopkins GPT tradeoff
-- Supports proposal consolidation track (SharePoint/OneDrive) over personal calendar automation initially
+Participated in Jul 2026 Cortex demo. Raised MoU framing (similar to IAPS model). Aligned on proposal-first pilot path over personal calendar automation.
 
 ## Related
 
-- [[paul-spiegel]] · [[chaeeun-kim]] · [[shatha-elnakib]]
-- Pilot: [[jhu-chh-cortex-pilot]]
+- [[paul-spiegel]]
+- [[chaeeun-kim]]
 
-## Source(s)
-
-- `raw/meetings/2026-07-08_jhu-chh-cortex-demo-transcript.md`
-- `raw/email/2026-06-08/landed-2026-06-08_jhu-spiegel-hera-ai-demo.md`
+→ [[chh]]

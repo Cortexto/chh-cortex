@@ -1,7 +1,7 @@
 {
   "name": "chh-cortex-code",
-  "version": "0.1.0",
-  "description": "Johns Hopkins CHH Cortex lite skills for Claude Code — grant packaging, triage, onboarding. No HERA vault path hardcoded.",
+  "version": "0.2.0",
+  "description": "CHH Cortex lite metadata stub. Skills load from repo paths (skills/*/SKILL.md). Run build_chh_lite.py + verify_chh_export.py before partner invite.",
   "author": {
     "name": "HERA Digital Health / CHH pilot"
   },

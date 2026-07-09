@@ -39,9 +39,9 @@ chh-cortex/
 
 ## Example workbench
 
-`raw/proposals/jhu-lsri-individual-2026/` — LSRI Individual Award example (sanitized).
+`raw/proposals/example-chh-rfp-2026/` — fictional RFP walkthrough (safe to share).
 
-Say: **I am working on jhu-lsri-individual-2026** to boot the workbench files.
+Say: **I am working on example-chh-rfp-2026** to boot the workbench files.
 
 ## Guardrails
 

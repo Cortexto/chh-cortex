@@ -1,6 +1,14 @@
-# CHH Cortex — Claude Code Instructions
+# CHH Cortex — Claude Instructions
 
 This is the CHH Cortex lite vault for Johns Hopkins Center for Humanitarian Health.
+
+## Works in
+
+- **Claude desktop (Cowork)** — plug and play: add this folder to a Cowork session, then say *Read CLAUDE.md and get me started*. No terminal or git needed.
+- **Claude Code** — open this folder as the workspace root; this file loads automatically.
+- **Cursor** (optional) — same folder, same rules.
+
+First session with a new user: offer `skills/chh-onboarding/SKILL.md` before anything else.
 
 ## Startup reads
 
@@ -41,4 +49,4 @@ When user says **I am working on [proposal]** under `raw/proposals/`:
 
 ## Plugin
 
-Install `chh-cortex-code` plugin for skill discovery in Claude Code.
+`chh-cortex-code` metadata lives at `.claude-plugin/plugin.json`. If local plugin install is unavailable, use the skill paths above directly.

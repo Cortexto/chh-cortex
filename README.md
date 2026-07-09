@@ -28,13 +28,17 @@ Use skills/chh-onboarding/SKILL.md and walk me through half-day setup on this Ma
 
 One CHH workflow with curator-owner and approval gates:
 
-1. **Internal RFP packaging** (default) — see `raw/proposals/jhu-lsri-individual-2026/`
+1. **Internal RFP packaging** (default) — see `raw/proposals/example-chh-rfp-2026/`
 2. Donor/reporting reuse
 3. IRB boilerplate
 
 Full dossier: `wiki/partnerships/chh.md`
 
-## Honest limits (v1)
+## Release gate
+
+Before partner GitHub invite: run `_system/RELEASE-GATE.md` — build + verify must exit 0.
+
+## Honest limits (v0.2)
 
 - No automatic Outlook/calendar ingest (Hopkins IT)
 - Manual paste for emails and meeting transcripts
