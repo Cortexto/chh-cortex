@@ -188,8 +188,24 @@ Draft → review → feedback
 ### Phase 4 — Aspirational (not dated)
 
 - Cross-grant search (“what did we promise funder X?”)
-- Richer email↔meeting↔grant correlation views
+- Richer email↔meeting↔grant **correlation views** (curator-promoted facts only — **not** automated person-observation or negotiation-intel mining)
 - Calendar assist **only if** IT approves a compliant path
+
+**HERA-maintained intelligence (not in CHH lite pilot):** usage-learning loops, inter-person signal extraction, and automated stale-fact archival run in full HERA Cortex (`wiki/principles/cortex-collective-brain.md`). CHH benefits via maintainer re-sync of **reviewer lessons** and workflow patterns — not live person-analytics bots.
+
+**Pilot guardrails (non-negotiable):** no person-observation mining, no negotiation-intel wiki pages, no promoting psychological profiles from meetings — only **decision facts**, **task candidates**, and **grant-linked context** with curator approval (see `skills/transcript-triage/SKILL.md`, `skills/knowledge-curator/SKILL.md`, `skills/chh-onboarding/SKILL.md`).
+
+---
+
+## HERA full vision ↔ CHH lite (honest map)
+
+| Capability | CHH lite (now) | Full HERA Cortex |
+|------------|----------------|------------------|
+| Contextual awareness at grant boot | ✓ vault + workbench + landed raw | ✓ + automation agents |
+| Learn from corrections / usage | Manual REVISION-LOG → reviewer lessons | collective-brain-reflection, grant-tone-miner, capture-check |
+| Inter-person dynamics from meetings | Triage → people/decision facts only | incoming-message-reader, person signals (internal) |
+| Noise reduction / keep current | Curator + triage classify `noise` | triage matrix scoring, dedup, supersede rows, freshness gates |
+| Latest papers / conferences in context | Manual land in `raw/` + wiki | Same + intake automations (HERA-side) |
 
 ---
 
@@ -211,6 +227,5 @@ Draft → review → feedback
 
 ## Source(s)
 
-- Jul 8, 2026 CHH Cortex demo transcript (landed in HERA vault)
+- Jul 8, 2026 CHH Cortex demo (transcript held in HERA maintainer vault — not shipped to partner repo)
 - `wiki/partnerships/chh.md` (export copy)
-- `_system/chh-cortex-lite/REVIEW-LEDGER.md`
