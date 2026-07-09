@@ -1,0 +1,9 @@
+{
+  "name": "chh-cortex-code",
+  "version": "0.1.0",
+  "description": "Johns Hopkins CHH Cortex lite skills for Claude Code — grant packaging, triage, onboarding. No HERA vault path hardcoded.",
+  "author": {
+    "name": "HERA Digital Health / CHH pilot"
+  },
+  "keywords": ["chh", "jhu", "grant-writing", "cortex", "humanitarian", "humanitarian-health"]
+}
