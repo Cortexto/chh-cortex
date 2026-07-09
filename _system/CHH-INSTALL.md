@@ -19,7 +19,7 @@ updated: 2026-07-09
 ## 1 — Prerequisites
 
 - Mac (center-dedicated laptop preferred)
-- Access to **`Cortexto/chh-cortex`** (private GitHub; accept the collaborator invite first) — Track B, or ZIP download for Track A
+- Access to **`Cortexto/chh-cortex`** (public GitHub) — Track B, or ZIP download for Track A
 - Organization-approved AI tool with **folder access**
 - Optional: Google Drive desktop sync
 
