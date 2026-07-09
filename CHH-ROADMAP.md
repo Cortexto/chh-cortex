@@ -11,7 +11,7 @@ updated: 2026-07-09
 
 ---
 
-## What this is (one paragraph)
+## What this is
 
 CHH Cortex is a **shared folder of markdown files** — grant workbenches, meeting notes, selected emails, people context — that your team and an approved AI assistant read together every session. It is **not** a chatbot with hidden memory. When someone works on an RFP, the system can already know prior decisions and linked context because that knowledge lives in files you control.
 
