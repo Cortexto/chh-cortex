@@ -47,7 +47,7 @@ Person context: [[paul-spiegel]]
 
 | Item | Detail |
 |------|--------|
-| Repo | `Cortexto/chh-cortex` (public) |
+| Repo | `Cortexto/chh-cortex` (private) |
 | Onboarding | `skills/chh-onboarding/SKILL.md` + `_system/CHH-INSTALL.md` |
 | Demo workbench | `raw/proposals/demo-lsri-workbench-2026/` — **full copy** of live LSRI package for exploration |
 
