@@ -49,4 +49,4 @@ When booting a grant or answering “what did we email X about?”, assistants s
 - Curated forward to a CHH capture folder → periodic export to markdown
 - Hopkins IT-reviewed export path — MoU phase only
 
-See `_system/CHH-CONTEXT.md` § Layer 2 — Email population.
+See `CHH-ROADMAP.md` for email population workflow.

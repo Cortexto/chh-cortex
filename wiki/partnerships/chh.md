@@ -21,7 +21,7 @@ updated: 2026-07-09
 | No memory between AI sessions | Shared markdown brain + workbench per grant |
 | Hopkins GPT session expiry | Institution owns files; swap model without losing memory |
 | High proposal volume | Grant workbench + red-team gates |
-| IT blocks AI on Outlook/calendar | Manual paste + curated **email population** → `raw/email/`; see CHH-CONTEXT § Layer 2 |
+| IT blocks AI on Outlook/calendar | Manual paste + curated **email population** → `raw/email/`; see `CHH-ROADMAP.md` |
 
 Person context: [[paul-spiegel]]
 
@@ -49,7 +49,7 @@ Person context: [[paul-spiegel]]
 |------|--------|
 | Repo | `Cortexto/chh-cortex` (private) |
 | Onboarding | `skills/chh-onboarding/SKILL.md` + `_system/CHH-INSTALL.md` |
-| Example workbench | `raw/proposals/example-chh-rfp-2026/` |
+| Demo workbench | `raw/proposals/demo-lsri-workbench-2026/` (sanitized LSRI-shape walkthrough) |
 
 ## IT limits (v1)
 

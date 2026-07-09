@@ -2,50 +2,38 @@
 
 **CHH Cortex** is a source-governed working memory for Johns Hopkins Center for Humanitarian Health grant and research operations.
 
-Plain markdown files in git. Human approval gates. No PII/PHI in the shared vault.
-
-Built from [HERA Cortex](https://github.com/Cortexto/hera-cortex) patterns — sanitized for CHH pilot use.
+Plain markdown files in git or Google Drive. Human approval gates. No PII/PHI in the shared vault.
 
 ## Quick start
 
 | Role | Start here |
 |------|------------|
-| **CHH technical owner** | `_system/CHH-INSTALL.md` |
-| **Faculty / program lead** | `ENTRY.md`, then `_system/CHH-INSTALL.md` Track A |
-| **First session** | Open this folder in your approved AI workspace and read `ENTRY.md` |
+| **Faculty / program lead (Paul, William)** | **`CHH-ROADMAP.md`** then `ENTRY.md` |
+| **Technical owner (Manny)** | `_system/CHH-INSTALL.md` |
+| **First AI session** | Mount this folder → *Read CHH-ROADMAP.md and ENTRY.md* |
 
 ## First prompts
 
 ```
-Read ENTRY.md, then explain how to start a grant workbench for a new CHH RFP.
+Read CHH-ROADMAP.md and ENTRY.md. Explain raw vs wiki in plain language.
+```
+
+```
+I am working on demo-lsri-workbench-2026 — boot the workbench and walk me through the files.
 ```
 
 ```
 Use skills/chh-onboarding/SKILL.md and walk me through setup.
 ```
 
-## What this repo includes
+## Demo vs your real grants
 
-See `_system/CHH-CAPABILITIES.md` for the feature map and `_system/CHH-CONTEXT.md` for pain-point mapping, email population, and roadmap.
-
-## Pilot scope
-
-One CHH workflow with curator-owner and approval gates:
-
-1. **Internal RFP packaging** (default) — see `raw/proposals/example-chh-rfp-2026/`
-2. Donor/reporting reuse
-3. IRB boilerplate
-
-Full dossier: `wiki/partnerships/chh.md`
-
-## Honest limits
-
-- No automatic Outlook/calendar ingest (Hopkins IT)
-- Manual paste for emails and meeting transcripts
-- Google Drive folder sync documented in CHH-INSTALL
-- Background automation and self-improvement loops are **HERA-maintained**, not shipped in this lite repo
+| Folder | Purpose |
+|--------|---------|
+| `raw/proposals/demo-lsri-workbench-2026/` | **Teaching example** — JHU grant shape, sanitized |
+| `raw/proposals/_template-chh-rfp/` | Empty scaffold — copy for your RFP |
 
 ## Support
 
-HERA Digital Health — tech lead for Cortex patterns.  
-Contact: Berktuğ Kubuk — berktug@heradigitalhealth.org
+HERA Digital Health — Cortex patterns for CHH  
+Berktuğ Kubuk — berktug@heradigitalhealth.org

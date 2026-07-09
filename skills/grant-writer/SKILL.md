@@ -26,11 +26,12 @@ Read only what is relevant:
 2. `wiki/partnerships/chh.md`
 3. `wiki/concepts/workflow/chh-grant-writing-process.md`
 4. `wiki/concepts/workflow/grant-proposal-workbench.md`
-5. `wiki/principles/chh-grant-voice.md`
-6. Package `raw/proposals/<slug>/DONOR-DOSSIER.md` when workbench active
-7. Package `raw/proposals/<slug>/DECISION-CHART.md` when workbench active
-8. Package `raw/proposals/<slug>/REVISION-LOG.md` when revising from human feedback
-9. `TASKS.md` when checking CHH pipeline deadlines
+5. `wiki/concepts/workflow/chh-workflows-guide.md`
+6. `wiki/principles/chh-grant-voice.md`
+7. Package `raw/proposals/<slug>/DONOR-DOSSIER.md` when workbench active
+8. Package `raw/proposals/<slug>/DECISION-CHART.md` when workbench active
+9. Package `raw/proposals/<slug>/REVISION-LOG.md` when revising from human feedback
+10. `TASKS.md` when checking CHH pipeline deadlines
 
 ## Workbench boot
 

@@ -10,23 +10,30 @@ Knowledge vault for Johns Hopkins Center for Humanitarian Health (CHH) grant and
 
 ## Step 1 — Read these first
 
-1. `CORTEX.md` — folder contract and guardrails
-2. `wiki/partnerships/chh.md` — pilot scope, IT matrix, curator rules
-3. `TASKS.md` — CHH team task list (empty template — fill locally)
-4. `_system/CHH-CAPABILITIES.md` — feature map (lite vs HERA-maintained)
-5. `_system/CHH-CONTEXT.md` — pain points, email population, roadmap
-6. `_system/AGENTS-AND-SKILLS.md` — skill index
+1. **`CHH-ROADMAP.md`** — pain points, raw vs wiki, what is included, demo, phases
+2. `CORTEX.md` — folder contract (short)
+3. `wiki/partnerships/chh.md` — pilot scope and curator rules
+4. `_system/CHH-INSTALL.md` — install (Track A = no terminal)
+5. `_system/AGENTS-AND-SKILLS.md` — skill index
+
+## Raw vs wiki (30 seconds)
+
+- **`raw/`** = inbox (emails, meetings, drafts) — land first, don’t silently rewrite sources
+- **`wiki/`** = approved facts — curator promotes from raw with sources
+
+Details in `CHH-ROADMAP.md`.
 
 ## Step 2 — Folder structure
 
 ```
 chh-cortex/
+├── CHH-ROADMAP.md     pain points, demo, phases (read first)
 ├── ENTRY.md           this file
-├── CLAUDE.md          AI workspace guide (for folder-mounted assistants)
+├── CLAUDE.md          AI workspace guide
 ├── raw/               source material (append-only)
 ├── wiki/              curated CHH knowledge
 ├── skills/            runnable workflows
-└── _system/           install guides, adapters
+└── _system/           install guide
 ```
 
 ## Step 3 — Invoke a skill
@@ -36,15 +43,20 @@ chh-cortex/
 | First-time setup | `skills/chh-onboarding/SKILL.md` |
 | Grant drafting | `skills/grant-writer/SKILL.md` |
 | Grant review | `skills/grant-red-team-reviewer/SKILL.md` |
+| Email triage | `skills/chh-email-triage/SKILL.md` |
 | Meeting triage | `skills/transcript-triage/SKILL.md` |
 | Wiki promotion | `skills/knowledge-curator/SKILL.md` |
 | Ambiguous routing | `skills/context-navigator/SKILL.md` |
 
-## Example workbench
+Workflows (portal gate, donor lens, cross-tool ledger): `wiki/concepts/workflow/chh-workflows-guide.md`
 
-`raw/proposals/example-chh-rfp-2026/` — fictional RFP walkthrough (safe to share).
+## Demo workbench (learn the routes)
 
-Say: **I am working on example-chh-rfp-2026** to boot the workbench files.
+`raw/proposals/demo-lsri-workbench-2026/` — **sanitized walkthrough** of a JHU-style grant package (not a live submission).
+
+Say: **`I am working on demo-lsri-workbench-2026`**
+
+Read `HOW-TO-USE.md` inside that folder first.
 
 ## Guardrails
 

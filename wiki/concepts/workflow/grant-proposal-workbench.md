@@ -20,7 +20,7 @@ I am working on <slug> — boot the workbench and summarize DECISION-CHART + DON
 
 ## Example
 
-`raw/proposals/example-chh-rfp-2026/` — fictional RFP walkthrough (safe to share).
+`raw/proposals/demo-lsri-workbench-2026/` — sanitized JHU grant walkthrough (not live submission).
 
 ## Source(s)
 
