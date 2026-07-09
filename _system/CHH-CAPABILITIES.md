@@ -16,6 +16,7 @@ This repo is a **pilot workbench**, not a full clone of HERA's internal automati
 | **Grant workbench** | Per-RFP folders with decision chart, donor lens, revision log | `raw/proposals/` + `skills/grant-writer/SKILL.md` |
 | **Red-team before paste** | Reviewer stress-test on draft sections | `skills/grant-red-team-reviewer/SKILL.md` |
 | **Meeting / note triage** | Classify pasted transcripts into tasks and wiki candidates | `skills/transcript-triage/SKILL.md` |
+| **Email population** | Curator-selected threads → `raw/email/` → triage → link to workbench | `raw/email/README.md`, triage + curator skills |
 | **Knowledge promotion** | Curator-approved moves from `raw/` → `wiki/` with sources | `skills/knowledge-curator/SKILL.md` |
 | **People & partnership context** | CHH roster and pilot dossier | `wiki/entities/people/`, `wiki/partnerships/chh.md` |
 | **Task list** | Shared CHH priorities | `TASKS.md` |
@@ -39,9 +40,12 @@ This repo is a **pilot workbench**, not a full clone of HERA's internal automati
 
 ## Future expansion (requires MoU + IT review)
 
+See `_system/CHH-CONTEXT.md` for full pain-point mapping and phases.
+
+- **Curated email capture** — forward/export → `raw/email/` (Paul priority; no OAuth in pilot)
 - Scheduled knowledge refresh from SharePoint/Drive
-- CHH-specific automation (with Hopkins-approved hosting)
-- Deeper integration with center procurement for team AI seats
+- CHH reviewer lessons library (promoted from revision logs)
+- CHH-specific automation only where Hopkins approves hosting
 
 ## Source(s)
 

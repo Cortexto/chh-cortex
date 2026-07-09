@@ -1,6 +1,6 @@
 {
   "name": "chh-cortex",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Johns Hopkins CHH Cortex lite — grant workbench and knowledge vault. Skills load from repo paths.",
   "author": {
     "name": "HERA Digital Health"

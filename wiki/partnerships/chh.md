@@ -21,7 +21,7 @@ updated: 2026-07-09
 | No memory between AI sessions | Shared markdown brain + workbench per grant |
 | Hopkins GPT session expiry | Institution owns files; swap model without losing memory |
 | High proposal volume | Grant workbench + red-team gates |
-| IT blocks AI on Outlook/calendar | Manual paste + Google Drive sync v1 |
+| IT blocks AI on Outlook/calendar | Manual paste + curated **email population** → `raw/email/`; see CHH-CONTEXT § Layer 2 |
 
 Person context: [[paul-spiegel]]
 

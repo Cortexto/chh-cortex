@@ -14,6 +14,8 @@ Knowledge vault for Johns Hopkins Center for Humanitarian Health (CHH) grant and
 2. `wiki/partnerships/chh.md` — pilot scope, IT matrix, curator rules
 3. `TASKS.md` — CHH team task list (empty template — fill locally)
 4. `_system/CHH-CAPABILITIES.md` — feature map (lite vs HERA-maintained)
+5. `_system/CHH-CONTEXT.md` — pain points, email population, roadmap
+6. `_system/AGENTS-AND-SKILLS.md` — skill index
 
 ## Step 2 — Folder structure
 

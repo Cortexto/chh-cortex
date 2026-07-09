@@ -26,7 +26,7 @@ Use skills/chh-onboarding/SKILL.md and walk me through setup.
 
 ## What this repo includes
 
-See `_system/CHH-CAPABILITIES.md` for the full feature map (grant workbench, knowledge promotion, triage) and what remains HERA-maintained during the pilot.
+See `_system/CHH-CAPABILITIES.md` for the feature map and `_system/CHH-CONTEXT.md` for pain-point mapping, email population, and roadmap.
 
 ## Pilot scope
 

@@ -27,8 +27,8 @@ Run conversationally, one step per message:
 
 1. **Confirm vault loaded** — summarize `ENTRY.md` in 3 plain bullets; name the six skills
 2. **Orientation** — `wiki/partnerships/chh.md` + `raw/proposals/example-chh-rfp-2026/`
-3. **Capabilities** — summarize `_system/CHH-CAPABILITIES.md` (what is included vs HERA-maintained)
-4. **First win** — user pastes a meeting note; run `skills/transcript-triage/SKILL.md`; save to `raw/meetings/`
+3. **Capabilities + context** — `_system/CHH-CAPABILITIES.md` and `_system/CHH-CONTEXT.md` (includes **email population** workflow)
+4. **First win — meeting or email** — paste a note or curator-selected email thread; run triage; save to `raw/meetings/` or `raw/email/`
 5. **Grant demo** — *I am working on example-chh-rfp-2026*
 6. **Honest limits** — no Outlook auto-ingest; no background automation in lite repo
 7. **Close** — emit Output section; flag blockers for Manny or HERA tech lead
