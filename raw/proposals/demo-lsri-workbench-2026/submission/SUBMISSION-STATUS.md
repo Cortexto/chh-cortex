@@ -1,7 +1,7 @@
 ---
 name: LSRI submission status
 type: tracking
-updated: 2026-07-08
+updated: 2026-07-10
 deadline: 2026-07-15 11:59 PM InfoReady
 competition_id: 2019088
 portal_url: https://jhu.infoready4.com/#freeformCompetitionDetail/2019088
@@ -30,7 +30,7 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 | 8 | PI #2–#4 | e196–e198 | **ready** | Leave blank (single lead PI) |
 | 9 | Co-PI #1 | e199 | **draft** | Filled: Youseph Yazdi (proposed, pending scoping call) |
 | 10 | Co-PI #2–#5 | e200–e203 | **ready** | Leave blank |
-| 11 | Application Narrative PDF | e407–e409 | **ready file** | `submission/lsri-narrative-draft-2026-07-08.pdf` (3 pages) — **manual upload required** (browser blocks automated file picker) |
+| 11 | Application Narrative PDF | e407–e409 | **Word ready; PDF export pending** | `submission/lsri-application-narrative-2026-07-10.docx` (canonical); export PDF after Shatha/Aral review |
 | 12 | Current and Pending Support PDF | e207–e209 | **blocked** | Templates: `submission/lsri-current-pending-support-2026-07-08.md` |
 | 13 | Budget Excel | e210–e212 | **blocked** | Download LSRI template from portal Details tab; align `submission/lsri-budget-justification-2026-07-08.md` |
 | 14 | Biosketches PDF | e213–e215 | **blocked** | Notes: `submission/lsri-biosketch-notes-2026-07-08.md`; Shatha + Yazdi (if co-PI) + Aral |
@@ -44,7 +44,8 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 
 | Required file | Exists in package? | Path | Ready for upload? |
 |---------------|-------------------|------|-------------------|
-| 4-page narrative PDF | **yes (3 pages)** | `submission/lsri-narrative-draft-2026-07-08.pdf` | **manual upload** — Shatha review + page-count OK |
+| 4-page narrative PDF | **Word ready** | `submission/lsri-application-narrative-2026-07-10.docx` | Export PDF from Word for InfoReady upload |
+| Yazdi CBID one-pager | **yes** | `submission/lsri-yazdi-cbid-one-pager-2026-07-10.docx` | For Aral review gate before outreach |
 | Current/pending PDF (Shatha) | Template only | `submission/lsri-current-pending-support-2026-07-08.md` | **no** |
 | Current/pending PDF (Yazdi) | Template only | same file § Yazdi | **no** — conditional on co-PI |
 | Budget Excel | Not downloaded | — | **no** |
@@ -74,7 +75,7 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 
 1. **Shatha PI login** — applicant profile must be Shatha, not Berktuğ
 2. **Hypothesis lock** — Hybrid B+C open; Aral + Shatha reconcile call
-3. **Yazdi co-PI commitment** — scoping call before final portal listing
+3. **Yazdi co-PI commitment** — scoping call before final portal listing; outreach kit ready behind Aral gate (`yazdi-cbid-one-pager-2026-07-10.md` + candidate email in scoping note; budget questions included)
 4. **Budget Excel** — download template + JHURA rates
 5. **Biosketches** — NIH PDFs from each team member
 6. **Current/pending** — completed forms from Shatha (+ Yazdi if co-PI)

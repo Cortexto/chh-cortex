@@ -79,6 +79,7 @@ Accepted decisions land in `DECISION-CHART.md`.
 | Individual Award track only | Shatha + team, Jul 2 | `DECISION-CHART.md` | Team $10M+ bid | call transcript |
 | Aral trainee not co-PI | Berktuğ + Shatha, Jul 2 | `DECISION-CHART.md` | — | call transcript |
 | CHH demo NotebookLM source-pack route | Codex fleet, 2026-07-07 | `raw/drafts/jhu-chh-cortex-notebooklm-source-pack-2026-07-08.md` | generic Cortex tour | Three-lens fleet: CHH audience story, LSRI claim-risk, NotebookLM source-pack |
+| AUB/FID responsibility cross-pollination: content yes, AUB org no | Claude assessment for Berktuğ, 2026-07-10; **updated same day** after Berktuğ pasted as-sent scope (`raw/drafts/fid-aub-nadine-outreach-2026-07-01.md`) | Three add-only elements landed in narrative (LSRI-REV-008): defer-versus-answer boundaries (Aim 3 requirements); GBV/acute-risk escalation pathways + structured flagged-conversation review (Ethics). Arabic lay-terminology already in Aim 1 (REV-007) | Initial same-day verdict "nothing further to add" (based on wiki summaries only) | Blocks on AUB as org stand: roster lock (Jul 2), 10% external lane occupied by HERA, Aral AUB gate ([[2026-06-25-fid-eval-partner-fork]]), lane separation (REV-004 principle). Reusable academic-partner template noted: IRB/ethics + de-identified conversation eval + terminology review + responsible-AI audit + co-authored publication |
 
 ## Parking Lot
 

@@ -8,11 +8,12 @@
 |------|-------|--------|
 | Instrument | **High-Impact Individual Award** only | `wiki/concepts/decisions/2026-07-02-jhu-lsri-individual-award-strategy.md` |
 | Lead PI | **Shatha Elnakib** (JHU CHH) | 2026-07-02 Shatha call |
-| Co-PI (target) | **Youseph Yazdi** (JHU CBID) | 2026-07-02 call; **soft yes 2026-07-07** — faculty/student roles TBD |
+| CBID faculty collaborator (proposed) | **Youseph Yazdi** (JHU CBID) | **Soft yes 2026-07-07**; named co-investigator vs advisor status, effort, and student mechanism remain `verify` |
 | Aral role | **Trainee / dissertation beneficiary** — **not co-PI** | 2026-07-02 call |
 | HERA role | Ops + drafting support; **≤10% subaward** or in-kind | InfoReady RFP + opportunity wiki |
 | Award scale | **$200k–$500k**, up to 2 years | InfoReady capture |
-| Roster | **Small** — Shatha + Yazdi + Aral trainee; no extra maternal faculty | Aral roster discipline, Jul 2 |
+| Roster | **Small** — Shatha + Aral trainee + proposed Yazdi/CBID work package; no extra maternal faculty | Aral roster discipline, Jul 2; Berktuğ route lock, Jul 10 |
+| CBID scope | **Bounded translational design work package**: faculty oversight + anticipated student team; one research-derived HERA-compatible prototype/workflow | Berktuğ approved 2026-07-10 |
 
 ## Process Gates
 
@@ -40,14 +41,16 @@ JHU internal life-sciences committee: **bold, high-risk/high-reward** over incre
 
 - **Transformational Science Team** ($10M+) — no new HERA bid; Shatha already co-PI on separate EoI
 - **Research Resilience Fund** — deprioritized; JHU-inside implementation rule
-- **Fork A only** (product expansion) — weaker novelty unless hybrid; demo lean **Fork B** pending Aral verify
+- **Fork A only** (product expansion) — weaker novelty unless hybrid; current working route is conversational/utilization research followed by a bounded research-derived prototype
+- **Generic CBID “AI support”** — rejected; duplicates CHH/analyst methods ownership and gives students no accountable output
+- **CBID full technical co-lead** — parked; too broad until Yazdi confirms role, effort, and available student mechanism
 
 ## Open Decisions / Blockers
 
 | Blocker | Owner | Status |
 |---------|-------|--------|
-| Lock hypothesis (A vs B vs hybrid) | Aral + Berktuğ | **open** |
-| Yazdi co-PI / CBID roles | Aral + Yazdi (+ Shatha) | **soft yes** — scoping call when plan clear |
+| Confirm hybrid hypothesis wording | Aral + Shatha | **working route locked for drafting** — final PI confirmation required |
+| Yazdi title, effort, student mechanism, and timing | Aral + Yazdi (+ Shatha) | **soft yes** — scoping note ready for Aral review |
 | Budget model (HERA ≤10% vs in-kind) | Shatha / JHURA | **verify** |
 | Prior DIV reviews as attachment | Shatha + Berktuğ | **verify** |
 | Shatha bandwidth for 4-page PDF | Shatha | **active** |
@@ -60,6 +63,9 @@ JHU internal life-sciences committee: **bold, high-risk/high-reward** over incre
 - **AI + biomedical/maternal bridge** required (Shatha gates)
 - Answer **what is new** vs current HERA program operations
 - No PII/PHI in shared knowledge artifacts; IRB/ethics for conversational data if Fork B
+- Do **not** describe Yazdi, CBID students, a student count, or a prototype form as confirmed before written scoping
+- CHH owns research design, ethics, analysis, and evaluation; CBID owns design translation, student supervision, and prototyping only
+- HERA does not run new field activities; usability work requires an approved, partner-supported, or remote protocol
 
 ## Source(s)
 

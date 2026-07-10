@@ -3,15 +3,15 @@ name: LSRI narrative skeleton
 type: working-draft
 status: outline — Shatha-owned 4-page PDF
 page_limit: 4 pages inclusive (12pt, ½" margins)
-updated: 2026-07-07
-hypothesis_lean: Fork B (verify with Aral)
+updated: 2026-07-10
+hypothesis_lean: Hybrid conversational analytics + utilization + bounded CBID design work package (final PI verify)
 ---
 
 # JHU LSRI High-Impact Individual Award — Narrative Skeleton
 
 **Owner:** Shatha Elnakib (PI) — this file is Cortex assembly scaffold, not submission PDF.
 
-**Hypothesis lean:** Fork B (conversational intelligence) — **`verify with Aral`**.
+**Hypothesis lean:** Analyze barriers in de-identified conversational and utilization data, then translate one priority barrier into a bounded, HERA-compatible navigation prototype with proposed CBID faculty and student participation. Final wording remains **`verify with Shatha`**.
 
 **Review criteria mapped:** LSRI seven criteria + AI/data science relevance where applicable.
 
@@ -61,7 +61,7 @@ hypothesis_lean: Fork B (verify with Aral)
 
 - Aligns with **Life Sciences Research Initiative** — public health, AI/compute, translational population health.
 - **CHH** humanitarian health mandate + **CBID** engineering/AI institute (Yazdi) = multidisciplinary stack Shatha requested.
-- Complements — does **not** duplicate — separate **$12M team EoI** (Shatha co-PI elsewhere); this Individual Award is **bounded pilot/analysis**.
+- Keep other JHU applications out of the scientific narrative. Use overlap information only in internal routing or a required current/pending-support disclosure.
 - **Student investment:** Funds trainee dissertation work (Aral) — aligns with program values.
 
 ---
@@ -86,6 +86,17 @@ hypothesis_lean: Fork B (verify with Aral)
 - NLP / thematic analysis; bias and safety review
 - Compute budget line (allowable per RFP)
 
+**Proposed CBID translational design work package (scope subject to Yazdi confirmation):**
+
+1. Translate CHH-approved findings into user, accessibility, and system requirements.
+2. Map the patient/navigation journey around one priority utilization barrier.
+3. Generate and assess intervention concepts with CHH, HERA, and trainee input.
+4. Prototype one bounded HERA-compatible navigation feature or workflow.
+5. Conduct supervised usability and feasibility testing under the approved ethics and partner protocol.
+6. Deliver design documentation and implementation recommendations.
+
+The feature form is deliberately open until formative findings identify the barrier. Examples such as service matching, referral navigation, or proactive guidance are illustrative, not promised outputs.
+
 **Feasibility:**
 
 - Data **already exists** in HERA ops (latent asset) — reduces field startup
@@ -108,7 +119,8 @@ hypothesis_lean: Fork B (verify with Aral)
 | Person | Role | Contribution |
 |--------|------|--------------|
 | **Shatha Elnakib** | PI | CHH humanitarian health; study design; partner liaison |
-| **Youseph Yazdi** | Co-PI (target) or CBID student lane | CBID; AI/engineering; **soft yes 2026-07-07** — faculty/student roles TBD **`verify` commitment** |
+| **Youseph Yazdi** | Proposed CBID faculty collaborator | Design-methodology oversight, student supervision, translational feasibility, milestone reviews; title and effort **`verify`** |
+| **CBID student team** | Anticipated design/prototyping team | Requirements, journey mapping, concept generation, prototype, supervised usability work, design handoff; mechanism and availability **`verify`** |
 | **Aral Surmeli** | Trainee | DrPH candidate; clinical + humanitarian field; dissertation thread |
 | **Berktuğ Kubuk / HERA** | Partner (≤10%) | Data access, technical support, in-kind ops |
 
@@ -141,10 +153,11 @@ hypothesis_lean: Fork B (verify with Aral)
 
 | Line | JHU-hosted | Notes |
 |------|------------|-------|
-| PI / co-PI effort | Shatha, Yazdi | Faculty salaries |
+| PI effort | Shatha | Scientific leadership, ethics, analysis, evaluation, publication |
+| CBID faculty / student mechanism | Yazdi + student team, if confirmed | Design oversight, student support, prototyping; title, mechanism, and amount **`verify`** |
 | Trainee | Aral | Dissertation support |
 | Postdoc / analyst | CHH | Thematic analysis |
-| Compute / AI | CBID/JHU | Allowable per RFP |
+| Compute / AI | CHH/JHU | NLP, secure analytics, and safety review; CBID does not own primary analysis |
 | HERA partnership | ≤10% or $0 in-kind | De-ID support, API, technical **`verify` with JHURA** |
 
 **At $300k request:** HERA line ≤ **$30k** if subaward.
