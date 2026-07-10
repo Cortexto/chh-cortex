@@ -16,7 +16,7 @@ parallel: wiki/entities/people/youseph-yazdi.md § Public-source dossier
 | Field | Detail | Source |
 |-------|--------|--------|
 | **JHU status** | DrPH candidate, Johns Hopkins Bloomberg School of Public Health | HERA team page; JHU CGDHI profile |
-| **Advisor** | Paul Spiegel, Director, Center for Humanitarian Health | Vault; `wiki/entities/people/aral.md` |
+| **Advisor** | William (Bill) Weiss, Professor, Department of International Health / CHH | Vault; `wiki/entities/people/aral.md` |
 | **Clinical / public health** | MD (Acıbadem University); MPH (Harvard T.H. Chan School of Public Health) | HERA; Google Scholar |
 | **Operational role** | Founder & CEO, HERA Digital Health (2017); co-founder/president, MEDAK | HERA; vault |
 | **DrPH focus** | Technology in humanitarian crises / AI in humanitarian response | JHU CGDHI; AI for Good speaker bio |
