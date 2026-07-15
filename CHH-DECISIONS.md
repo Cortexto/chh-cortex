@@ -24,7 +24,8 @@ Each row captures: what we **first assumed**, what we **decided**, and **why it 
 | I need to… | Open |
 |------------|------|
 | Understand the product, raw vs wiki, pain points | `CHH-ROADMAP.md` |
-| Install, clone, Antigravity paste-boot | `_system/CHH-INSTALL.md` |
+| Install, clone, workspace root | `_system/CHH-INSTALL.md` |
+| **AI rules (all hosts)** | **`AI-WORKSPACE-RULES.md`** · Cursor: `.cursor/rules/chh-cortex-pilot.mdc` |
 | Lane A vs B, Mac options, rollout phases | `CHH-DEPLOYMENT-OPTIONS.md` |
 | **Pilot decisions, Phase 0 status, bottlenecks** | **This file** |
 | Week 0–4 center-Mac checklist | `_system/CHH-PHASE1-PLAYBOOK.md` |

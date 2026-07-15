@@ -11,7 +11,7 @@ Plain markdown in git or Google Drive. Human approval gates. No PII/PHI in the s
 | Who | Open |
 |-----|------|
 | **Paul / William** | [`CHH-ROADMAP.md`](CHH-ROADMAP.md) · [`CHH-DECISIONS.md`](CHH-DECISIONS.md) (file map) · [`CHH-DEPLOYMENT-OPTIONS.md`](CHH-DEPLOYMENT-OPTIONS.md) |
-| **Manny (install)** | [`_system/CHH-INSTALL.md`](_system/CHH-INSTALL.md) · [`_system/CHH-PHASE1-PLAYBOOK.md`](_system/CHH-PHASE1-PLAYBOOK.md) |
+| **Manny (install + Cursor)** | [`_system/CHH-INSTALL.md`](_system/CHH-INSTALL.md) · [`AI-WORKSPACE-RULES.md`](AI-WORKSPACE-RULES.md) · [Phase 1 playbook](_system/CHH-PHASE1-PLAYBOOK.md) |
 | **See real grant complexity** | [`raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`](raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md) |
 
 ## The map — how CHH Cortex works
@@ -32,7 +32,7 @@ flowchart LR
     cur -->|hold| inbox
     wiki --> wb
     wb --> gw --> rt --> ok --> out
-    ledgers["DECISION-CHART · BRAINSTORM-LEDGER · REVISION-LOG"] -.-> wb
+    ledgers["DECISION-CHART · REVISION-LOG · REVIEW-LEDGER"] -.-> wb
 ```
 
 Nothing moves from inbox to knowledge, or from draft to funder, without a human saying yes. Works in any AI workspace that opens a folder (Cursor, Claude Desktop, Antigravity, Codex) — memory is these files, not any single tool.

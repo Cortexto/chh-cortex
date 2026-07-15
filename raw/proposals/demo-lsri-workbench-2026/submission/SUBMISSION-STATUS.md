@@ -1,8 +1,9 @@
 ---
 name: LSRI submission status
 type: tracking
-updated: 2026-07-14
+updated: 2026-07-15
 deadline: 2026-07-15 11:59 PM InfoReady
+submitted: 2026-07-15
 competition_id: 2019088
 portal_url: https://jhu.infoready4.com/#freeformCompetitionDetail/2019088
 submit_owner: Shatha Elnakib (PI)
@@ -11,8 +12,10 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 
 # LSRI Individual Award — Submission Status
 
-**Last portal capture:** 2026-07-08 15:52 (Berktuğ session — form fields filled for Shatha)  
-**Draft saved:** Yes — applicant profile overwritten to **Shatha Elnakib** (BSPH, selnaki1@jhu.edu). Still logged in as **Berktuğ**; **Shatha must log in and submit** (do not final-submit under Berktuğ account).
+**Submitted:** ✅ **2026-07-15** — Shatha Elnakib confirmed via JHU InfoReady (`raw/email/2026-07-15/landed-2026-07-15_lsri-application-received.md`). Package included Aral biosketch; **Yazdi/CBID co-PI role excluded** (time constraints).
+
+**Last portal capture:** 2026-07-08 15:52 (Berktuğ support session)  
+**Submit owner:** Shatha Elnakib (PI) — do not treat Berktuğ login as submission authority.
 
 **Narrative v9.1 (2026-07-14, budget alignment pass):** v9 science intact + Aim 1b FGD/IDI added, Feasibility patched for JHU-led Türkiye validation travel, §6 updated to $350k request. Body ~2,112 words (~3.6 pages estimated vs v9 2,362 = 4.0 measured). Word file: `lsri-application-narrative-2026-07-14.docx`. Re-run `gauge_lsri_pages.py` in Word before PDF export if LibreOffice unavailable locally.
 
@@ -44,7 +47,7 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 | 14 | Biosketches PDF | e213–e215 | **blocked** | Notes: `submission/lsri-biosketch-notes-2026-07-08.md`; Shatha + Yazdi (if co-PI) + Aral |
 | 15 | Prior Reviews PDF (optional) | e216–e218 | **verify** | DIV/Syria prior reviews if attachable |
 | 16 | Save as Draft | e220 | **draft** | Clicked under Berktuğ session; Shatha must re-save after PI overwrite |
-| 17 | Final Submit | — | **blocked** | Shatha login required; do not submit as Berktuğ |
+| 17 | Final Submit | — | **✅ submitted 2026-07-15** | Shatha (PI) · InfoReady confirmation in email thread |
 
 ---
 

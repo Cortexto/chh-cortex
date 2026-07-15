@@ -1,0 +1,20 @@
+---
+description: CHH Cortex pilot — always-on vault rules (enforce AI-WORKSPACE-RULES.md)
+alwaysApply: true
+---
+
+# CHH Cortex pilot — Cursor rules
+
+**Canonical source:** `AI-WORKSPACE-RULES.md` — read and apply on every substantive turn.
+
+At session start skim `CHH-ROADMAP.md` and `CHH-DECISIONS.md` § Which file do I use?
+
+On **`I am working on [slug]`**: read that workbench's `DECISION-CHART.md`, `DONOR-DOSSIER.md`, `REVISION-LOG.md` before drafting.
+
+Non-negotiable every turn:
+
+- No PII/PHI · no invented grant claims
+- Curator gate before paste-ready donor text and wiki promotion
+- Grant external prose → grant-writer + grant-red-team-reviewer skills
+- Git handles collisions; ledgers are coordination only (not locks, not model loggers)
+- Workbench files beat chat memory

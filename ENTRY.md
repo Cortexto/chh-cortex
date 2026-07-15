@@ -11,10 +11,23 @@ Knowledge vault for Johns Hopkins Center for Humanitarian Health (CHH) grant and
 ## Step 1 — Read these first
 
 1. **`CHH-ROADMAP.md`** — pain points, contextual awareness, email population, six layers, learning loop, tailored grant tool, phases
-2. `CORTEX.md` — folder contract (short)
-3. `wiki/partnerships/chh.md` — pilot scope and curator rules
-4. `_system/CHH-INSTALL.md` — install (Track A = no terminal)
-5. `_system/AGENTS-AND-SKILLS.md` — skill index
+2. **`CHH-DECISIONS.md`** — which file to use; pilot decisions; GitHub issue workflow
+3. `AI-WORKSPACE-RULES.md` — canonical rules for AI assistants (Cursor / Claude / Codex)
+4. `CORTEX.md` — folder contract (short)
+5. `wiki/partnerships/chh.md` — pilot scope and curator rules
+6. `_system/CHH-INSTALL.md` — install (Track A = no terminal)
+7. `_system/AGENTS-AND-SKILLS.md` — skill index
+
+## AI host boot
+
+| Host | Rules auto-load from |
+|------|----------------------|
+| **Cursor** | `.cursor/rules/chh-cortex-pilot.mdc` |
+| **Claude Code** | `CLAUDE.md` → `AI-WORKSPACE-RULES.md` |
+| **Codex** | `AGENTS.md` → `AI-WORKSPACE-RULES.md` |
+| **Other** | Paste: *Read AI-WORKSPACE-RULES.md and CHH-ROADMAP.md* |
+
+Open `chh-cortex/` as the **workspace / project root**.
 
 ## Raw vs wiki (30 seconds)
 
@@ -27,9 +40,11 @@ Details in `CHH-ROADMAP.md`.
 
 ```
 chh-cortex/
-├── CHH-ROADMAP.md     pain points, demo, phases (read first)
-├── ENTRY.md           this file
-├── CLAUDE.md          AI workspace guide
+├── CHH-DECISIONS.md   file map + pilot decisions
+├── AI-WORKSPACE-RULES.md   canonical AI rules (all hosts)
+├── .cursor/rules/     Cursor auto-load (parity adapter)
+├── CLAUDE.md          Claude Code adapter
+├── AGENTS.md          Codex adapter
 ├── raw/               source material (append-only)
 ├── wiki/              curated CHH knowledge
 ├── skills/            runnable workflows
