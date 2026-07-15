@@ -52,16 +52,28 @@ Paste iCal export or copied agenda under the frontmatter.
 
 ### 3 — Generate brief (AI assistant)
 
-Boot phrase:
+Boot phrase (paste into your AI tool with `chh-cortex/` as workspace root):
 
 ```
 Read raw/meetings/YYYY-MM-DD_daily-agenda.md and wiki/entities/people/ for attendees.
 Produce a one-line purpose + three prep bullets per meeting. No invented context.
 ```
 
-Or use `skills/chh-meeting-prep/SKILL.md` if installed.
+**If the assistant cannot find a file:** confirm `chh-cortex/` is open as the workspace/project root, then paste the file path directly.
 
-**If the assistant cannot find a skill or file:** confirm `chh-cortex/` is open as the workspace/project root, then paste the file path directly.
+**Output shape (per meeting):**
+
+```markdown
+## [Time] — [Title]
+**Purpose:** …
+**Prep:**
+- …
+- …
+- …
+**Vault links:** people card if exists · optional proposal slug
+```
+
+**Rules:** pull people context only from the vault; flag `verify` if attendee unknown; do not promise live Outlook access; do not promote to `wiki/` without curator approval.
 
 ### 4 — Triage (optional, weekly)
 

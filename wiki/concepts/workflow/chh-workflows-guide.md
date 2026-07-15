@@ -37,7 +37,7 @@ Full SOP: `wiki/concepts/workflow/chh-sop-email-population.md`
 
 ## 2b — Meeting prep (no Outlook OAuth)
 
-Full SOP: `wiki/concepts/workflow/chh-sop-meeting-prep.md` · Skill: `skills/chh-meeting-prep/SKILL.md`
+Full SOP: `wiki/concepts/workflow/chh-sop-meeting-prep.md`
 
 ---
 

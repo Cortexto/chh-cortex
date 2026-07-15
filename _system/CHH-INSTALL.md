@@ -74,7 +74,7 @@ Open `chh-cortex/` as workspace root.
 | New real RFP | Copy `raw/proposals/_template-chh-rfp/` |
 | Email | `raw/email/README.md` + `chh-email-triage` skill |
 | Meeting | `raw/meetings/_template/` + transcript-triage |
-| Meeting prep (no OAuth) | `chh-sop-meeting-prep.md` + `chh-meeting-prep` skill |
+| Meeting prep (no OAuth) | `wiki/concepts/workflow/chh-sop-meeting-prep.md` |
 | Fireflies export | `chh-sop-fireflies-landing.md` |
 | Email population | `chh-sop-email-population.md` |
 

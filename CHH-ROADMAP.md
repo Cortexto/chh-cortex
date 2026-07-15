@@ -77,7 +77,7 @@ Workflows: `wiki/concepts/workflow/chh-workflows-guide.md`
 
 1. Export day/week from Outlook (iCal or copy agenda text)
 2. Paste → `raw/meetings/YYYY-MM-DD_<topic>.md`
-3. Run `wiki/concepts/workflow/chh-sop-meeting-prep.md` or `skills/chh-meeting-prep/SKILL.md`
+3. Run `wiki/concepts/workflow/chh-sop-meeting-prep.md` (boot phrase in § step 3)
 4. Run `skills/transcript-triage/SKILL.md` (optional weekly)
 5. Curator promotes durable facts to `wiki/`
 

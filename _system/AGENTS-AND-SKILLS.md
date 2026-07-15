@@ -9,7 +9,6 @@ updated: 2026-07-15
 | Skill | Path | Use when |
 |-------|------|----------|
 | **CHH onboarding** | `skills/chh-onboarding/SKILL.md` | First setup |
-| **Meeting prep** | `skills/chh-meeting-prep/SKILL.md` | Pasted daily agenda → briefs |
 | Context navigator | `skills/context-navigator/SKILL.md` | Ambiguous task routing |
 | Grant writer | `skills/grant-writer/SKILL.md` | RFP fit, drafting, strategy |
 | Grant red-team | `skills/grant-red-team-reviewer/SKILL.md` | Before paste-ready output |
