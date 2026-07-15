@@ -9,10 +9,10 @@ Use when Paul/team switches between Claude, ChatGPT, or folder-mounted assistant
 
 ## Required Reads
 
-1. `wiki/concepts/workflow/chh-workflows-guide.md` § Cross-tool ledger
+1. `CHH-DECISIONS.md` — file map + ledger guardrails (CD-005)
 2. `raw/proposals/<slug>/REVISION-LOG.md`
 3. `raw/proposals/<slug>/DECISION-CHART.md`
-4. Optional: `raw/proposals/<slug>/REVIEW-LEDGER.md` if present
+4. Optional: `raw/proposals/<slug>/REVIEW-LEDGER.md`
 
 ## Workflow
 
@@ -36,4 +36,4 @@ Never delete prior rows.
 - Workbench files beat chat memory
 - Do not invent decisions not in files
 - Curator approves file writes
-- **Git handles collisions** — ledgers are coordination records, not locks and not model telemetry
+- **Git handles collisions** — ledgers are coordination records, not locks and not model telemetry (`CHH-DECISIONS.md` CD-005)

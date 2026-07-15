@@ -7,20 +7,20 @@ updated: 2026-07-15
 
 # CHH Cortex — Deployment options
 
-**Read with:** `CHH-ROADMAP.md` · `_system/CHH-INSTALL.md` · `_system/CHH-PHASE1-PLAYBOOK.md`
+**Read with:** `CHH-ROADMAP.md` · `CHH-DECISIONS.md` (Phase 0 status + file map) · `_system/CHH-INSTALL.md` · `_system/CHH-PHASE1-PLAYBOOK.md`
 
-Paul Spiegel restated two priorities (Jul 2026): (1) Claude on a work laptop with Dropbox, Outlook, and meeting notes; (2) a **CHH laptop** for the grant-workflow pilot. They are related but **not the same problem**.
+Paul's two priorities (Jul 2026): personal laptop context (Outlook, meetings) vs **center laptop** grant workflow. Related but **not the same problem** — see CD-002 in `CHH-DECISIONS.md`.
 
 ---
 
 ## Two lanes
 
-| Lane | What you want | Hopkins reality (Jul 8 demo) | v1 answer |
-|------|---------------|------------------------------|-----------|
-| **A — Personal laptop** | Daily meeting prep from Outlook + files + Fireflies | IT blocks AI OAuth to institutional Outlook/Dropbox | **Manual SOPs** + optional IT petition — not live mailbox hooks |
-| **B — Center laptop** | Shared grant memory on consolidated proposals | Feasible with file-first vault + Drive | **Start here** — recommended pilot |
+| Lane | What you want | Hopkins reality | v1 answer |
+|------|---------------|-----------------|-----------|
+| **A — Personal laptop** | Daily meeting prep from Outlook + Fireflies | IT blocks AI OAuth to institutional mail/calendar | **Manual SOPs** — not live mailbox hooks |
+| **B — Center laptop** | Shared grant memory on consolidated proposals | File-first vault + Drive works | **Start here** |
 
-**Do not wait for Lane A to start Lane B.** Paul pivoted on the demo call to proposals-first on a center machine when calendar automation looked hard.
+**Do not wait for Lane A to start Lane B.**
 
 ---
 
@@ -43,9 +43,9 @@ Hopkins IT advice (William Weiss, Jul 8): **pull trusted data into one folder fi
 
 See `_system/CHH-PHASE1-PLAYBOOK.md` for week-by-week steps.
 
-**Demo note:** the Jul 8 walkthrough ran in **Cursor**; Manny's primary stack is **Google Antigravity** — both are supported when the repo folder is the workspace root (see `_system/CHH-INSTALL.md` § Antigravity).
+**Tools:** Cursor (demo) and **Antigravity** (Manny) both work — see `_system/CHH-INSTALL.md` § Antigravity for paste-boot.
 
-**Live drafts vs this repo:** `Cortexto/chh-cortex` is **public** — patterns, SOPs, and the LSRI **demo** workbench. **Live CHH RFP drafts** belong in a **private repo or CHH Google Drive folder** until Phase 0 confirms otherwise (Manny raised this 2026-07-15).
+**Live drafts vs this repo:** public `chh-cortex` = patterns + demo; **live RFP drafts → private repo or Drive** (CD-004).
 
 ---
 
@@ -72,9 +72,7 @@ See `_system/CHH-PHASE1-PLAYBOOK.md` for week-by-week steps.
 
 ### Phase 0 — Manny call (~45 min)
 
-Lock: IT blockers, Mac spec, curator, accounts, Drive folder, Fireflies export owner.
-
-**Held 2026-07-15** — partial capture in `CHH-DECISIONS.md`. Still open: dedicated Mac spec, curator name, private-repo path for live drafts, Outlook auto-forward test.
+**Held 2026-07-15** — locked decisions and open items: `CHH-DECISIONS.md` (CD-001–CD-010 + § Open decisions).
 
 ### Phase 1 — Center pilot (weeks 1–4)
 

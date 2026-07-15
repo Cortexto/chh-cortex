@@ -8,7 +8,9 @@ updated: 2026-07-15
 # CHH Cortex — Roadmap & guide
 
 **Read this first** on GitHub — Paul, William, Manny, CHH staff.  
-Install: `_system/CHH-INSTALL.md` · **Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · **Decisions:** `CHH-DECISIONS.md` · **Phase 1:** `_system/CHH-PHASE1-PLAYBOOK.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
+Install: `_system/CHH-INSTALL.md` · **Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · **Decisions + file map:** `CHH-DECISIONS.md` · **Phase 1:** `_system/CHH-PHASE1-PLAYBOOK.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
+
+> **Which file for what?** See the table in `CHH-DECISIONS.md` — canonical map; other docs link there instead of repeating it.
 
 > **Note:** Content from the old CHH-CONTEXT doc (removed in v0.3) is **here** at repo root.
 
@@ -57,7 +59,7 @@ Workflows: `wiki/concepts/workflow/chh-workflows-guide.md`
 | **Forgotten meeting decisions** | No shared memory | Searchable vault + **boot by grant slug** | Meetings ↔ grants ↔ people linked in wiki |
 | **Too much time on proposals** | Fragmented drafts | Workbench per RFP + red-team + revision log | Reviewer lessons library + canonical blocks |
 | **Many departments — who is involved?** | Siloed inboxes | People cards + triage from email/meetings | “Who touched this funder?” from wiki |
-| **Claude + ChatGPT — no shared memory** | Multiple tools | **One git or Drive folder** | Cross-tool ledger in workbench |
+| **Claude + ChatGPT — no shared memory** | Multiple tools | **One git or Drive folder** | Workbench `REVISION-LOG` + optional `REVIEW-LEDGER` — see `CHH-DECISIONS.md` |
 | **SharePoint / Dropbox not AI-readable** | File walls | Curator copies into `raw/` | Approved folder sync only |
 | **Hopkins GPT forgets after 30 days** | Session-bound cloud | **File-first memory** | Same |
 

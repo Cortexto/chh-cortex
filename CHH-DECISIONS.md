@@ -13,16 +13,35 @@ This file is the **center-level decision record** for the CHH pilot — not gran
 
 Each row captures: what we **first assumed**, what we **decided**, and **why it changed** when it did.
 
+**Phase 0 status:** held 2026-07-15 — partial. Open items are in § Open decisions below (not repeated in other docs).
+
 ---
 
-## How to use
+## Which file do I use?
 
-| Situation | Where to record |
-|-----------|-----------------|
-| Pilot scope, IT limits, hardware, repo policy | **This file** (`CHH-DECISIONS.md`) |
-| One RFP's hypothesis, budget, section route | `raw/proposals/<slug>/DECISION-CHART.md` |
-| Draft feedback and revision history | `raw/proposals/<slug>/REVISION-LOG.md` |
-| Cross-session AI tool notes (optional) | `raw/proposals/<slug>/REVIEW-LEDGER.md` |
+**Four center-level docs** + **one folder per grant**. Git handles edit collisions (pull, commit, resolve); ledgers are **coordination records only** — not file locks, not model loggers (see CD-005).
+
+| I need to… | Open |
+|------------|------|
+| Understand the product, raw vs wiki, pain points | `CHH-ROADMAP.md` |
+| Install, clone, Antigravity paste-boot | `_system/CHH-INSTALL.md` |
+| Lane A vs B, Mac options, rollout phases | `CHH-DEPLOYMENT-OPTIONS.md` |
+| **Pilot decisions, Phase 0 status, bottlenecks** | **This file** |
+| Week 0–4 center-Mac checklist | `_system/CHH-PHASE1-PLAYBOOK.md` |
+| Step-by-step workflow map | `wiki/concepts/workflow/chh-workflows-guide.md` |
+| Email / meeting / Fireflies SOP | `wiki/concepts/workflow/chh-sop-*.md` |
+| **One RFP's route, locks, gates** | `raw/proposals/<slug>/DECISION-CHART.md` |
+| **Draft feedback and why it changed** | `raw/proposals/<slug>/REVISION-LOG.md` |
+| Continue same grant in a new AI session (optional) | `raw/proposals/<slug>/REVIEW-LEDGER.md` |
+
+**Do not confuse similarly named files:**
+
+| Name | Scope |
+|------|-------|
+| `CHH-DECISIONS.md` | **Center pilot** — IT, hardware, repo policy |
+| `DECISION-CHART.md` | **One grant** — hypothesis, budget, section route |
+| `REVISION-LOG.md` | **One grant** — draft feedback history |
+| `REVIEW-LEDGER.md` | **One grant** — optional cross-tool session notes |
 
 **Curator rule:** append new rows; do not silently delete old reasoning — mark superseded instead.
 

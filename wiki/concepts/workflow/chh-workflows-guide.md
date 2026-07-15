@@ -87,17 +87,15 @@ Do not promote negotiation intel or person-psychology profiles to wiki.
 
 ---
 
-## 6 — Cross-tool ledger (Claude + ChatGPT + folder AI)
+## 6 — Cross-tool continue (Claude + ChatGPT + folder AI)
 
 When the same grant moves across tools:
 
-1. Keep `REVISION-LOG.md` in the workbench as source of truth
-2. Optional: add `REVIEW-LEDGER.md` in the package for cross-session notes
-3. Say **continue [slug]** — assistant reads ledger + revision log before drafting
+1. Read `raw/proposals/<slug>/REVISION-LOG.md` + `DECISION-CHART.md`
+2. Optional: `REVIEW-LEDGER.md` for session notes
+3. Say **continue [slug]** — assistant reads files before drafting
 
-**Git handles simultaneous edits** — pull, commit, and resolve conflicts in git. Ledgers (`REVISION-LOG`, `REVIEW-LEDGER`, `CHH-DECISIONS.md`) are **coordination records**, not file locks and not model telemetry. They do not auto-log which AI tool ran.
-
-Skill: `skills/chh-cross-tool-ledger/SKILL.md`
+**Git handles collisions** — ledgers are coordination records only (not locks, not model telemetry). Full guardrails: `CHH-DECISIONS.md` CD-005 · skill: `skills/chh-cross-tool-ledger/SKILL.md`
 
 ---
 
