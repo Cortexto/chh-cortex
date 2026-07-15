@@ -2,13 +2,13 @@
 name: CHH Cortex — Roadmap & guide
 description: Start here — pain points, contextual awareness, email population, learning loop, tailored grant tool, phases
 type: guide
-updated: 2026-07-09
+updated: 2026-07-15
 ---
 
 # CHH Cortex — Roadmap & guide
 
 **Read this first** on GitHub — Paul, William, Manny, CHH staff.  
-Install: `_system/CHH-INSTALL.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
+Install: `_system/CHH-INSTALL.md` · **Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · **Phase 1:** `_system/CHH-PHASE1-PLAYBOOK.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
 
 > **Note:** Content from the old CHH-CONTEXT doc (removed in v0.3) is **here** at repo root.
 
@@ -75,8 +75,9 @@ Workflows: `wiki/concepts/workflow/chh-workflows-guide.md`
 
 1. Export day/week from Outlook (iCal or copy agenda text)
 2. Paste → `raw/meetings/YYYY-MM-DD_<topic>.md`
-3. Run `skills/transcript-triage/SKILL.md`
-4. Curator promotes durable facts to `wiki/`
+3. Run `wiki/concepts/workflow/chh-sop-meeting-prep.md` or `skills/chh-meeting-prep/SKILL.md`
+4. Run `skills/transcript-triage/SKILL.md` (optional weekly)
+5. Curator promotes durable facts to `wiki/`
 
 ### Layer 2 — Email population (Paul priority)
 
@@ -88,7 +89,7 @@ Workflows: `wiki/concepts/workflow/chh-workflows-guide.md`
 
 1. Curator forwards/copies **selected** grant-related threads
 2. Save → `raw/email/` (see `raw/email/README.md` frontmatter)
-3. Run `skills/chh-email-triage/SKILL.md`
+3. Run `wiki/concepts/workflow/chh-sop-email-population.md` → `skills/chh-email-triage/SKILL.md`
 4. Link to workbench `REVISION-LOG.md` or `DECISION-CHART.md`
 
 **Contextual awareness example:**

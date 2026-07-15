@@ -10,8 +10,8 @@ Plain markdown in git or Google Drive. Human approval gates. No PII/PHI in the s
 
 | Who | Open |
 |-----|------|
-| **Paul / William** | [`CHH-ROADMAP.md`](CHH-ROADMAP.md) |
-| **Manny (install)** | [`_system/CHH-INSTALL.md`](_system/CHH-INSTALL.md) |
+| **Paul / William** | [`CHH-ROADMAP.md`](CHH-ROADMAP.md) · [`CHH-DEPLOYMENT-OPTIONS.md`](CHH-DEPLOYMENT-OPTIONS.md) |
+| **Manny (install)** | [`_system/CHH-INSTALL.md`](_system/CHH-INSTALL.md) · [`_system/CHH-PHASE1-PLAYBOOK.md`](_system/CHH-PHASE1-PLAYBOOK.md) |
 | **See real grant complexity** | [`raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`](raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md) |
 
 ## First prompt

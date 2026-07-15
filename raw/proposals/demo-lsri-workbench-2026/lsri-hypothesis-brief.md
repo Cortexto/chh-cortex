@@ -1,9 +1,9 @@
 ---
 name: LSRI hypothesis brief
 type: working-draft
-status: draft — verify with Aral before locking
-updated: 2026-07-07
-demo_lean: Fork B
+status: draft — fusion LSRI-H005 proposed 2026-07-13; verify with Shatha + Aral before locking
+updated: 2026-07-13
+demo_lean: Fusion LSRI-H005 (Fork C frame + Fork B method)
 ---
 
 # JHU LSRI — Hypothesis Brief
@@ -66,6 +66,40 @@ demo_lean: Fork B
 Product outcomes **plus** conversational analytics as **evaluation layer** — maternal module as intervention, conversation logs as implementation-science dataset. Tighter 4-page fit if Fork B alone reads too methods-heavy.
 
 **Owner to decide:** Aral + Berktuğ before narrative v1.
+
+---
+
+## Fusion — LSRI-H005 (proposed 2026-07-13, red-team session)
+
+**Resolves B vs C: Fork C is the frame, Fork B is the method.** Reviewer-simulation scores: invisible-demand science 7/10 · chat-vs-survey benchmark 5/10 (demote to sub-task) · CBID prototype 4/10 standalone, 8/10 as component · follow-on pipeline 3/10 standalone (paragraph only).
+
+> **Hypothesis:** conversational data from an operating digital health service can identify why refugee women miss care, and a PI-designed measurement layer embedded in that service can validly measure self-reported utilization.
+
+| Aim | Content | Depends on |
+|-----|---------|------------|
+| **1** | Governed pipeline + **PI-designed self-report measurement layer** (wording, timing, flow placement under study protocol) + nested validation sub-study. Corpus with annotation protocols = deliverable (trainee gate, structural). Survey benchmark = sub-task, not aim | Live Türkiye service — no partners needed |
+| **2** | Barrier discovery + **pre-clinic drop-off measurement** + explicit **selection-function modeling** (who conversational data sees vs misses — the fatal critique converted into the novel science) | Aim 1 pipeline |
+| **3** | Bounded CBID rapid design cycle on top validated barrier; **pre-specify fallback barrier from DIV evidence** so aim isn't hostage to Aim 2 timing | Yazdi role scoping |
+| **Exploratory** | CHH-led facility linkage pilot (2–3 sites recruited via CHH networks) — **pending Shatha yes/no**; Istanbul 2023 = prior-collaboration rationale (identifier failure → DIV H3 → this develops the fix) | Shatha network answer |
+
+**Maturity gradient (feasibility spine):** structured in-service self-report (*exists — 3 loops, founder-confirmed 2026-07-13*) → PI-designed instrument + validation (*this grant*) → facility linkage pilot (*exploratory*) → causal trial (*DIV/FID follow-on — criterion-5 paragraph only, overlap disclosed in current/pending support*).
+
+### Product basis (founder-confirmed 2026-07-13 — numbers `verify`)
+
+Three reminder → push → in-chat structured self-report loops live in product: **template 1** vaccination (host-country schedule auto-calc; caregiver confirms attendance + vaccines given) · **template 2** pregnancy check-up attendance · **template 3** health-services access. Source: `raw/capture-logs/2026-07-13-lsri-self-report-loops-product-confirmation.md`. **Verify before quoting figures:** response rate per template · window/denominators · storage format · export/de-ID path.
+
+### Hard constraints (registered 2026-07-13)
+
+1. **No active clinic connection anywhere** — linkage never claimed as capability; exploratory aim or cut
+2. **No AMTI name** in this proposal
+3. **HERA back-staged** — describe by function (*"WhatsApp-based maternal and child health navigation service operated by a nonprofit platform partner in Türkiye"*); HERA named once, ≤10% lane
+4. **No unverified figures** in narrative
+
+### Aim 1 draft language (JHU register)
+
+> **Aim 1.** Establish a governed pipeline for routinely generated conversational and self-reported utilization data from an operating digital health service. The study will draw on a WhatsApp-based maternal and child health navigation service operated by a nonprofit platform partner in Türkiye, which currently serves Arabic-speaking refugee women and embeds structured follow-up cycles into routine care navigation: host-country-specific vaccination schedules with caregiver-confirmed attendance, antenatal check-up reminders with attendance confirmation, and periodic health-service access questions. The research team will (a) design and prospectively deploy a refined outcome-measurement layer within these existing service flows, specifying question wording, timing, and flow placement under the study protocol; (b) establish de-identification and data-governance procedures for secondary analysis of the accumulated service data; and (c) assess the measurement properties of in-service self-report through a nested validation sub-study.
+
+**New Shatha-call agenda item:** *"Can CHH realistically bring 2–3 facility partners for a linkage pilot — yes or no?"* — decides exploratory aim vs cut.
 
 ---
 

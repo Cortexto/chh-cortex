@@ -1,7 +1,7 @@
 ---
 name: CHH Cortex — Skills index
 type: system
-updated: 2026-07-09
+updated: 2026-07-15
 ---
 
 # CHH Cortex — Agents and skills
@@ -9,6 +9,7 @@ updated: 2026-07-09
 | Skill | Path | Use when |
 |-------|------|----------|
 | **CHH onboarding** | `skills/chh-onboarding/SKILL.md` | First setup |
+| **Meeting prep** | `skills/chh-meeting-prep/SKILL.md` | Pasted daily agenda → briefs |
 | Context navigator | `skills/context-navigator/SKILL.md` | Ambiguous task routing |
 | Grant writer | `skills/grant-writer/SKILL.md` | RFP fit, drafting, strategy |
 | Grant red-team | `skills/grant-red-team-reviewer/SKILL.md` | Before paste-ready output |
@@ -16,6 +17,10 @@ updated: 2026-07-09
 | Transcript triage | `skills/transcript-triage/SKILL.md` | Meetings and pasted notes |
 | **Cross-tool ledger** | `skills/chh-cross-tool-ledger/SKILL.md` | Continue same grant in new AI session |
 | Knowledge curator | `skills/knowledge-curator/SKILL.md` | Wiki promotion (approval-gated) |
+
+**SOPs:** `wiki/concepts/workflow/chh-sop-meeting-prep.md` · `chh-sop-fireflies-landing.md` · `chh-sop-email-population.md`
+
+**Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · `_system/CHH-PHASE1-PLAYBOOK.md`
 
 **Workflow guide:** `wiki/concepts/workflow/chh-workflows-guide.md`
 

@@ -2,12 +2,13 @@
 name: CHH Cortex — Team Install
 description: Onboarding for JHU CHH — folder sync or git clone of Cortexto/chh-cortex only
 type: system
-updated: 2026-07-09
+updated: 2026-07-15
 ---
 
 # CHH Cortex — Install guide
 
-**Start with `CHH-ROADMAP.md`** (root) for what this is and raw vs wiki.
+**Start with `CHH-ROADMAP.md`** (root) for what this is and raw vs wiki.  
+**Deployment plan:** `CHH-DEPLOYMENT-OPTIONS.md` · **Phase 1 checklist:** `_system/CHH-PHASE1-PLAYBOOK.md`
 
 **Audience:** Manny Kim, Paul Spiegel, William Weiss, CHH staff
 
@@ -54,6 +55,9 @@ Open `chh-cortex/` as workspace root.
 | New real RFP | Copy `raw/proposals/_template-chh-rfp/` |
 | Email | `raw/email/README.md` + `chh-email-triage` skill |
 | Meeting | `raw/meetings/_template/` + transcript-triage |
+| Meeting prep (no OAuth) | `chh-sop-meeting-prep.md` + `chh-meeting-prep` skill |
+| Fireflies export | `chh-sop-fireflies-landing.md` |
+| Email population | `chh-sop-email-population.md` |
 
 ## 5 — Honest limits (Hopkins IT)
 

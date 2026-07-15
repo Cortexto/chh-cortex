@@ -1,7 +1,7 @@
 ---
 name: LSRI submission status
 type: tracking
-updated: 2026-07-10
+updated: 2026-07-14
 deadline: 2026-07-15 11:59 PM InfoReady
 competition_id: 2019088
 portal_url: https://jhu.infoready4.com/#freeformCompetitionDetail/2019088
@@ -13,6 +13,14 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 
 **Last portal capture:** 2026-07-08 15:52 (Berktuğ session — form fields filled for Shatha)  
 **Draft saved:** Yes — applicant profile overwritten to **Shatha Elnakib** (BSPH, selnaki1@jhu.edu). Still logged in as **Berktuğ**; **Shatha must log in and submit** (do not final-submit under Berktuğ account).
+
+**Narrative v9.1 (2026-07-14, budget alignment pass):** v9 science intact + Aim 1b FGD/IDI added, Feasibility patched for JHU-led Türkiye validation travel, §6 updated to $350k request. Body ~2,112 words (~3.6 pages estimated vs v9 2,362 = 4.0 measured). Word file: `lsri-application-narrative-2026-07-14.docx`. Re-run `gauge_lsri_pages.py` in Word before PDF export if LibreOffice unavailable locally.
+
+**Narrative v9 (2026-07-14):** Canonical text: `lsri-narrative-word-paste-2026-07-10.md` (v9, measured 4.0 pages at RFP spec before FGD patch). **Shatha revision package updated for $350k budget.**
+
+**Narrative v4 (2026-07-13, post IRB red-team, superseded by v5):** Codex adversarial review returned **BLOCK** (`../LSRI-IRB-ACADEMIC-RED-TEAM-HANDOFF-2026-07-13.md`); narrative rebuilt same day on the four-data-object ontology — two aims + gated exploratory objective, self-reported-utilization construct (no reference standard assumed), three-state outcomes, ethics data-flow architecture, **CBID/Yazdi fully removed** (Berktuğ 13 Jul), references renumbered. Mechanical gates pass (0 markers / 0 em dashes / 0 CBID); ~2,454 body words — **4-page PDF render check required before upload**. Codex re-review requested via `../REVIEW-LEDGER.md`. Portal cleanup needed: remove Yazdi from Co-PI #1 field.
+
+**Narrative v3 (2026-07-13, superseded by v4):** `lsri-narrative-word-paste-2026-07-10.md` **rewritten in place around fusion LSRI-H005** (Berktuğ: v2 alignment-patch lacked the punchline — rebuild from the fusion pitch). Page 1 opens with the plain pre-clinic-journey claim; aims restated as plain questions with methods attached; new proposed title. All v2 substance retained (self-report loops + validation sub-study, no-clinic constraint, selection-function + drop-off in Aim 2, fallback barrier in Aim 3). References renumbered — v3 list is authoritative. **Markdown is the Shatha handoff artifact** (per Berktuğ 13 Jul — no docx regeneration); the 10 Jul docx is **superseded**, do not upload it. PI review package: `lsri-shatha-handoff-2026-07-13.md`. Two `[SHATHA DECISION]` markers in text (title; exploratory facility-linkage pilot) — strip before PDF export.
 
 ---
 
@@ -30,9 +38,9 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 | 8 | PI #2–#4 | e196–e198 | **ready** | Leave blank (single lead PI) |
 | 9 | Co-PI #1 | e199 | **draft** | Filled: Youseph Yazdi (proposed, pending scoping call) |
 | 10 | Co-PI #2–#5 | e200–e203 | **ready** | Leave blank |
-| 11 | Application Narrative PDF | e407–e409 | **Word ready; PDF export pending** | `submission/lsri-application-narrative-2026-07-10.docx` (canonical); export PDF after Shatha/Aral review |
-| 12 | Current and Pending Support PDF | e207–e209 | **blocked** | Templates: `submission/lsri-current-pending-support-2026-07-08.md` |
-| 13 | Budget Excel | e210–e212 | **blocked** | Download LSRI template from portal Details tab; align `submission/lsri-budget-justification-2026-07-08.md` |
+| 11 | Application Narrative PDF | e407–e409 | **v9.1 docx ready; PDF export after Shatha revision** | Canonical text: `lsri-narrative-word-paste-2026-07-10.md` (FGD/IDI + feasibility patch 2026-07-14). Word: `lsri-application-narrative-2026-07-14.docx`. Run `gauge_lsri_pages.py` or Word page check before PDF export |
+| 12 | Current and Pending Support PDF | e207–e209 | **blocked** | Templates: `submission/lsri-current-pending-support-2026-07-08.md` ($350k) |
+| 13 | Budget Excel | e210–e212 | **draft ready** | `submission/LSRI-HIIA-Budget-2026-07-14.xlsx` ($350k; Shatha verify base salary + effort). Justification: `lsri-budget-justification-2026-07-08.md` |
 | 14 | Biosketches PDF | e213–e215 | **blocked** | Notes: `submission/lsri-biosketch-notes-2026-07-08.md`; Shatha + Yazdi (if co-PI) + Aral |
 | 15 | Prior Reviews PDF (optional) | e216–e218 | **verify** | DIV/Syria prior reviews if attachable |
 | 16 | Save as Draft | e220 | **draft** | Clicked under Berktuğ session; Shatha must re-save after PI overwrite |
@@ -44,11 +52,11 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 
 | Required file | Exists in package? | Path | Ready for upload? |
 |---------------|-------------------|------|-------------------|
-| 4-page narrative PDF | **Word ready** | `submission/lsri-application-narrative-2026-07-10.docx` | Export PDF from Word for InfoReady upload |
+| 4-page narrative PDF | **Word ready (v9)** | `submission/lsri-application-narrative-2026-07-14.docx` | Export PDF from Word after Shatha revision; 10 Jul docx obsolete |
 | Yazdi CBID one-pager | **yes** | `submission/lsri-yazdi-cbid-one-pager-2026-07-10.docx` | For Aral review gate before outreach |
 | Current/pending PDF (Shatha) | Template only | `submission/lsri-current-pending-support-2026-07-08.md` | **no** |
 | Current/pending PDF (Yazdi) | Template only | same file § Yazdi | **no** — conditional on co-PI |
-| Budget Excel | Not downloaded | — | **no** |
+| Budget Excel | **yes (draft)** | `submission/LSRI-HIIA-Budget-2026-07-14.xlsx` | **verify** — Shatha confirm salary/effort |
 | Biosketches (Shatha) | Notes only | `submission/lsri-biosketch-notes-2026-07-08.md` | **no** |
 | Biosketches (Yazdi) | Notes only | same | **no** — conditional |
 | Biosketches (Aral) | Notes only | same | **no** |
@@ -62,7 +70,7 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 |------------|--------|
 | Shatha = Lead PI | **blocked** — portal still shows Berktuğ |
 | Aral = trainee NOT co-PI | **pass** — not listed as co-PI |
-| HERA ≤10% subaward | **pass** — narrative + budget |
+| HERA ≤10% subaward | **pass** — $35k at $350k request in Excel + narrative |
 | Yazdi = interested only | **pass** — Co-PI #1 marked PROPOSED |
 | No unverified corpus stats | **pass** |
 | Syria geography verify | **pass** — softened in narrative |
@@ -76,7 +84,7 @@ logged_in_as: Berktuğ Kubuk (support only — NOT PI)
 1. **Shatha PI login** — applicant profile must be Shatha, not Berktuğ
 2. **Hypothesis lock** — Hybrid B+C open; Aral + Shatha reconcile call
 3. **Yazdi co-PI commitment** — scoping call before final portal listing; outreach kit ready behind Aral gate (`yazdi-cbid-one-pager-2026-07-10.md` + candidate email in scoping note; budget questions included)
-4. **Budget Excel** — download template + JHURA rates
+4. **Budget Excel** — draft filled; Shatha verify base salary ($150k placeholder) and PI effort (20%)
 5. **Biosketches** — NIH PDFs from each team member
 6. **Current/pending** — completed forms from Shatha (+ Yazdi if co-PI)
 7. **Narrative PDF** — 4-page pagination check after Shatha review

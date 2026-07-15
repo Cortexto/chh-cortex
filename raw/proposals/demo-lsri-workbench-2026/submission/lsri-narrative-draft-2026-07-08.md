@@ -1,8 +1,8 @@
 ---
 name: LSRI application narrative
 type: submission-draft
-status: canonical narrative (aims-first + team-source tailoring); Shatha PI confirmation + Aral review + budget confirmation + PDF layout gate before submission
-updated: 2026-07-10
+status: canonical narrative v2 (fusion LSRI-H005 — self-report loops in; facility-record implications removed); Shatha PI confirmation + Aral review + budget confirmation + PDF layout gate before submission
+updated: 2026-07-13
 deadline: 2026-07-15 11:59 PM InfoReady
 submit_owner: Shatha Elnakib (PI)
 format: 4 pages max PDF (12pt, ½" margins; refs beyond)
@@ -18,7 +18,7 @@ format: 4 pages max PDF (12pt, ½" margins; refs beyond)
 
 **Hypothesis.** Routinely generated, de-identified conversational data from an operating digital health service can identify modifiable barriers to health service utilization among refugee and returnee populations, and a navigation intervention designed around one validated barrier can measurably improve navigation feasibility and service uptake.
 
-**Aim 1. Establish and validate a governed conversational-and-utilization evidence pipeline.** We will audit and characterize the de-identified operational corpus (population, languages, volume, linkage to utilization indicators), implement governance and de-identification under JHU IRB, develop a barrier taxonomy using NLP and thematic coding, and evaluate lay-language health terminology in low-resource refugee-community languages where the corpus permits, validated against structured survey and utilization measures with prespecified convergence and divergence analyses. *Outputs: governed analytic dataset; validated coding framework; terminology/accessibility brief where applicable; methods manuscript.*
+**Aim 1. Establish and validate a governed conversational-and-utilization evidence pipeline.** We will audit and characterize the de-identified operational corpus (population, languages, volume, in-service self-reported utilization responses), implement governance and de-identification under JHU IRB, develop a barrier taxonomy using NLP and thematic coding, and evaluate lay-language health terminology in low-resource refugee-community languages where the corpus permits. The platform embeds structured follow-up cycles in routine use — caregiver-confirmed vaccination attendance against host-country schedules, antenatal check-up attendance confirmation, and health-service access questions — and because these cycles are configurable, the team will prespecify and prospectively refine the outcome-measurement layer (question wording, timing, flow placement) under the study protocol, with a nested validation sub-study of the measurement properties of in-service self-report. *Outputs: governed analytic dataset; validated self-report measurement layer; validated coding framework; terminology/accessibility brief where applicable; methods manuscript.*
 
 **Aim 2. Identify and prioritize modifiable barriers to public health service utilization.** Applying the Aim 1 pipeline, we will estimate barrier prevalence and associations with utilization patterns, triangulate conversational signals with structured measures, and select one priority barrier against prespecified criteria (prevalence, modifiability, equity relevance). *Outputs: barrier evidence profile; cycle 1 learning memo; selected design target.*
 
@@ -50,11 +50,11 @@ This proposal meets the Life Sciences Research Initiative mandate for bold, high
 
 **Design.** Mixed-methods corpus characterization and validation study over Months 1–12, nested within the 24-month award.
 
-**Data and measures.** De-identified conversational health data from HERA humanitarian operations; structured survey and utilization records where linkage is permitted. Prespecified audit documents population, languages, date range, usable volume, completeness, de-identification pathway, utilization linkage, permissions, and fitness for analysis. Geography and any extension beyond the population represented in the corpus follow audit and partner/IRB feasibility review, with prespecified transfer rationale and subgroup validation if required.
+**Data and measures.** De-identified conversational health data and in-service self-reported utilization responses from the platform's embedded follow-up cycles (vaccination attendance confirmation, antenatal check-up attendance confirmation, health-service access questions). The study does not depend on external facility records; an exploratory record-linkage pilot with a small number of collaborating facilities may be added contingent on CHH partnership feasibility and IRB review `[SHATHA DECISION]`. Prespecified audit documents population, languages, date range, usable volume, response completeness by follow-up cycle, de-identification pathway, permissions, and fitness for analysis. Geography and any extension beyond the population represented in the corpus follow audit and partner/IRB feasibility review, with prespecified transfer rationale and subgroup validation if required.
 
 | Outcome domain | Candidate measures | Role |
 |----------------|-------------------|------|
-| Utilization (primary candidates) | Antenatal visit counts; migrant health center registration and visit frequency; referral completion; sustained service engagement | Primary where linkage permits; hierarchy finalized post-audit |
+| Utilization (primary candidates) | Confirmed antenatal check-up attendance (self-report); confirmed vaccination attendance (self-report); reported health-service access; referral follow-through signals; sustained service engagement | Primary; in-service self-report validated in Aim 1 sub-study; hierarchy finalized post-audit |
 | Conversational analytics | Barrier taxonomy codes; thematic clusters; lay-language terminology fidelity in low-resource languages | Aim 1 validation outputs |
 | Implementation (Aim 3) | Feasibility; acceptability (AIM/IAM/FIM-class); usability (SUS); reach; fidelity | Secondary in Aim 3 |
 
@@ -68,9 +68,9 @@ This proposal meets the Life Sciences Research Initiative mandate for bold, high
 
 **Design.** Cross-sectional and longitudinal association analyses using the Aim 1 dataset, followed by structured barrier prioritization against prespecified criteria (prevalence, modifiability, equity relevance).
 
-**Analysis.** Estimate barrier prevalence and associations with utilization patterns; triangulate conversational and structured evidence; produce cycle 1 learning memo and one CHH-approved design target for Aim 3.
+**Analysis.** Estimate barrier prevalence and associations with utilization patterns; analyze pre-service drop-off (referral or facility information provided in conversation followed by non-confirmation of attendance) as a candidate signal of unrealized care-seeking; explicitly model the platform's selection function — whom the service data represent relative to the broader refugee population — so representativeness is a study object, not an assumption; triangulate conversational and structured self-report evidence; produce cycle 1 learning memo and one CHH-approved design target for Aim 3.
 
-**Pitfalls and alternatives.** If conversational and structured signals diverge materially, we retain both in the evidence profile and select the barrier with strongest convergent support and clearest modifiability for intervention design.
+**Pitfalls and alternatives.** If conversational and structured signals diverge materially, we retain both in the evidence profile and select the barrier with strongest convergent support and clearest modifiability for intervention design. A fallback barrier grounded in published refugee maternal-health access evidence is prespecified so Aim 3 is not contingent on Aim 2 timing.
 
 ### Aim 3. Navigation intervention design and feasibility testing
 
@@ -102,7 +102,7 @@ The specific navigation feature is not predetermined; disciplined needs-driven d
 | Year 2, Q1–Q2 | Aim 3 concept generation and bounded prototype | Prototype; design documentation |
 | Year 2, Q3–Q4 | Supervised usability/feasibility; utilization linkage | Implementation findings; effect estimates for power calculations |
 
-**Feasibility.** JHU hosts analysis, faculty effort, trainee support, and compute. HERA provides data access and technical partnership within the 10% subaward cap. Prior quasi-experimental work on antenatal visit attendance in Istanbul migrant health centers demonstrates adjacent evaluation capacity, though that study used smartphone reminders rather than conversational AI and supports plausibility only.[10]
+**Feasibility.** JHU hosts analysis, faculty effort, trainee support, and compute. HERA provides data access and technical partnership within the 10% subaward cap. Primary outcome measurement occurs within the operating service, so Aims 1–3 require no new facility infrastructure or field program. Prior quasi-experimental work on antenatal visit attendance in Istanbul migrant health centers demonstrates adjacent evaluation capacity, though that study used smartphone reminders rather than conversational AI and supports plausibility only;[10] its documented identifier-capture failure directly motivates this proposal's governed, prespecified measurement approach.
 
 ---
 

@@ -26,10 +26,24 @@ When triaging email or meetings, classify each unit:
 
 ## 2 — Email population
 
+Full SOP: `wiki/concepts/workflow/chh-sop-email-population.md`
+
 1. Curator selects grant-related threads only
 2. Save to `raw/email/` per `raw/email/README.md`
 3. Run `skills/chh-email-triage/SKILL.md`
 4. Link to active workbench `REVISION-LOG.md` if relevant
+
+---
+
+## 2b — Meeting prep (no Outlook OAuth)
+
+Full SOP: `wiki/concepts/workflow/chh-sop-meeting-prep.md` · Skill: `skills/chh-meeting-prep/SKILL.md`
+
+---
+
+## 2c — Fireflies landing
+
+Full SOP: `wiki/concepts/workflow/chh-sop-fireflies-landing.md`
 
 ---
 

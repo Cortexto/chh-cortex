@@ -32,9 +32,9 @@ B. PROPOSED PROJECT (this application)
 
 Title: AI-Supported Digital Health Navigation and Conversational Analytics for Refugee Health Service Utilization
 Agency: JHU Life Sciences Research Initiative — High-Impact Individual Award
-Requested direct costs: $300,000 over 2 years (verify final amount)
+Requested direct costs: $350,000 over 2 years (verify final amount with JHURA)
 Role: Lead PI
-Proposed % effort: [verify — suggest 15%]
+Proposed % effort: 20% (verify with ORS — reconcile with $12M EoI co-PI load)
 
 C. OVERLAP STATEMENT
 
@@ -118,7 +118,7 @@ C. OVERLAP: None with faculty PI effort lines.
 
 Use verbatim or adapt in overlap sections:
 
-> The $12M anticipatory-action team expression of interest and this $300k Individual Award are separate projects with distinct scientific aims, budgets, and deliverables. The team EoI focuses on anticipatory humanitarian action; this Individual Award focuses on AI-supported digital health navigation and conversational analytics for refugee health service utilization. No duplicated aims or budget lines.
+> The $12M anticipatory-action team expression of interest and this $350k Individual Award are separate projects with distinct scientific aims, budgets, and deliverables.
 
 ---
 

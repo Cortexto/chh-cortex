@@ -8,10 +8,11 @@ Accepted decisions land in `DECISION-CHART.md`.
 
 ## STATE
 
-- **Status:** active (demo-driven unpark 2026-07-07)
-- **Top blocker:** Hypothesis pivot — Aral direction notes 2026-07-08 (Syria mapping + utilization eval) vs Jul 2 Fork B; roster conflicts (Aral co-PI suggestion vs trainee lock)
-- **NEXT:** Reconcile Aral notes with Shatha → update DECISION-CHART if accepted → **Yazdi role scoping call** (soft yes 2026-07-07) → narrative v1 by Jul 15
-- **Last touched:** 2026-07-08
+- **Status:** active (fusion proposed 2026-07-13)
+- **Top blocker:** Confirm fusion **LSRI-H005** (Fork C frame + Fork B method) with Shatha + Aral; Shatha yes/no on CHH facility recruitment for exploratory linkage aim
+- **NEXT:** Shatha/Aral confirm H005 → tech team answers 4 self-report verify questions → **Yazdi role scoping call** (soft yes 2026-07-07) → narrative v2 by Jul 15
+- **Hard constraints registered 2026-07-13:** no active clinic connection (linkage = exploratory only); no AMTI name; HERA back-staged; no unverified figures
+- **Last touched:** 2026-07-13
 - **Yazdi:** soft yes 2026-07-07 — roles TBD; see capture log
 
 ## Verify Queue
@@ -22,6 +23,13 @@ Accepted decisions land in `DECISION-CHART.md`.
 | Yazdi co-PI availability | LSRI-Q003 | Aral + Yazdi -> role scoping when hypothesis clear | Written role agreement (student vs faculty co-PI) | **soft yes** 2026-07-07 |
 | HERA subaward vs service contract | LSRI-Q004 | Shatha / JHURA | JHURA guidance | verify |
 | Shatha full-time faculty eligibility | LSRI-Q001 | Shatha | ORS confirmation | verify |
+| Self-report loops: response rate per template (1 vaccination / 2 pregnancy / 3 health access) | Aim 1 evidence table | Berktuğ -> ask Sara / Su-Yuen / Husam | Product/database export | verify |
+| Self-report data window + denominators (users vs survey exposures — GHAIN R3 flag) | Aim 1 evidence table | Berktuğ -> tech team | Database reconciliation | verify |
+| Self-report storage format (structured field vs free text) + export/de-ID path | Aim 1 feasibility wording | Berktuğ -> tech team | Tech confirmation | verify |
+| Exact follow-up question wording per flow | Protocol drafting | Berktuğ -> land internal eval report PDF to `raw/evidence/` | Report methodology section | verify |
+| CHH can recruit 2–3 facilities for linkage pilot | Exploratory aim vs cut | Shatha -> reconciliation call agenda | Shatha yes/no | **open — ask on call** |
+| Conversation timestamps exportable in de-identified data (gates H3 interval analysis) | H3 / Aim 2 | Berktuğ -> tech team (add to 4-question ask) | Tech confirmation | verify |
+| Design numbers (agreement thresholds, annotation subset n, cognitive-interview n≈20–30) | Expected-outcomes table | Shatha + analyst/biostatistician | Protocol prespecification | **PI to confirm** |
 
 ## Active Questions
 
@@ -44,6 +52,7 @@ Accepted decisions land in `DECISION-CHART.md`.
 | LSRI-H002 | LSRI-Q001 | **Fork B:** Refugee WhatsApp conversations as novel humanitarian data collection vs Kobo; refugee gap vs Nature chatbot-health lit | Aral emphasis Jul 2; Shatha novelty gate | IRB/ethics; corpus claims need source | medium | Aral | active |
 | LSRI-H004 | LSRI-Q001 | **Fork C (Aral 2026-07-08):** Syria health-system mapping + LLM-mediated intelligence; test whether AI digital tools increase utilization of general/public health services among refugee/returnee populations; rapid-cycle implementation learning | Proportionate to Individual Award; CHH evidence leadership; mobile-population framing | Syria access/IRB; must not duplicate product pitch only; reconcile with Fork B | medium-high | Aral | **new lean** |
 | LSRI-H003 | LSRI-Q002 | Mixed-methods: conversational analytics + bounded health-outcome linkage | Fits eval science at CHH | Must not sound tooling-only | verify | Shatha | active |
+| LSRI-H005 | LSRI-Q001 | **Fusion (2026-07-13): Fork C as frame + Fork B as method.** Hypothesis: conversational data can identify why refugee women miss care, and a PI-designed measurement layer embedded in an operating service can validly measure self-reported utilization. Aim 1: governed pipeline + PI-designed self-report instrument + validation sub-study (corpus = deliverable). Aim 2: barrier discovery + pre-clinic drop-off + selection-function modeling ("invisible women" science, clinic-free by design). Aim 3: bounded CBID design cycle with pre-specified fallback barrier. Exploratory: CHH-led facility linkage pilot (pending Shatha network answer). Follow-on paragraph only: DIV/FID | Three self-report loops founder-confirmed (capture log 2026-07-13); resolves B-vs-C reconciliation; degrades gracefully if linkage fails; committee-scored strongest in red-team session | No-clinic constraint (below); numbers unverified; Aim 3 dependent on Aim 2 timing | medium-high | Berktuğ -> Shatha + Aral confirm | **proposed** |
 
 ## Agent Turns
 
@@ -52,6 +61,7 @@ Accepted decisions land in `DECISION-CHART.md`.
 | LSRI-TURN-001 | 2026-07-07 | cursor-fleet | decision doc, InfoReady capture, negotiation intel (internal) | Bootstrapped workbench; hypothesis brief + narrative skeleton | package files | Aral hypothesis; Shatha narrative ownership | `AGENT-HANDOFF.md` |
 | LSRI-TURN-002 | 2026-07-08 | Cursor | Aral informal notes (Berktuğ relay) | Sanitized capture log; Fork C + utilization hypothesis; flagged roster conflicts; Yazdi optional | `raw/capture-logs/2026-07-08-aral-lsri-hypothesis-direction-notes.md`; this ledger | Reconcile with Shatha; update DECISION-CHART if accepted; do not promote Aral co-PI to donor text | capture log |
 | LSRI-TURN-003 | 2026-07-08 | Cursor | Berktuğ paste Yazdi reply + Aral outbound | Landed email thread; Yazdi soft yes; co-PI not committed; student/faculty roles TBD | `raw/capture-logs/2026-07-07-yazdi-lsri-individual-award-email-thread.md`; `wiki/entities/people/youseph-yazdi.md`; this ledger | Role scoping after hypothesis lock; do not list Yazdi as committed co-PI in donor text | capture log |
+| LSRI-TURN-004 | 2026-07-13 | Claude Code | Full package + DIV/FID/Ai4GH/Connect2Care cross-reads + Berktuğ product confirmation | Reviewer-simulation red-team of 4 idea candidates (scores 7/5/4/3); fusion LSRI-H005 (C-frame + B-method); no-clinic constraint surfaced; three self-report loops founder-confirmed; JHU-register Aim 1 draft language written into hypothesis brief | This ledger (H005, verify rows, claims); `raw/capture-logs/2026-07-13-lsri-self-report-loops-product-confirmation.md`; `wiki/concepts/tech/amti-capabilities.md` (self-report section); `lsri-hypothesis-brief.md` (fusion + Aim 1 patch) | Shatha + Aral confirm H005; Shatha yes/no on CHH facility recruitment; tech team answers 4 verify questions; then narrative v2 | capture log 2026-07-13 |
 
 ## Peer Comment Loop
 
@@ -71,6 +81,9 @@ Accepted decisions land in `DECISION-CHART.md`.
 | Thousands of refugee conversations | verify | Aral Jul 2 call | Fork B | needs ops count |
 | Nature chatbot papers exist; refugee-specific gap | verify | Aral Jul 2 call | Fork B novelty | literature check |
 | Yazdi interested in LSRI CBID collaboration | soft yes | Yazdi email 2026-07-07 | team section | co-PI **not** committed; roles TBD |
+| **HERA has NO active clinic/facility connection anywhere** | confirmed | Berktuğ direct, 2026-07-13 | kill-rule for narrative | Facility-record linkage must be exploratory aim (CHH-recruited) or cut — never claimed as capability. Istanbul 2023 = *prior* collaboration only |
+| Three structured self-report loops live in product (vaccination / pregnancy / health access templates) | founder-confirmed, numbers verify | Berktuğ direct, 2026-07-13; `raw/capture-logs/2026-07-13-lsri-self-report-loops-product-confirmation.md` | Aim 1 feasibility | Mechanism confirmable; response rates/windows/denominators unverified — no figures in narrative |
+| AMTI name banned in LSRI narrative; HERA back-staged ("nonprofit platform partner", named once) | confirmed | Berktuğ instruction 2026-07-13 | whole narrative | Consistent with REV-006 academic register + DECISION-CHART |
 
 ## Merge Decisions
 

@@ -3,9 +3,9 @@ name: JHU LSRI High-Impact Individual Award 2026
 description: Active workbench for JHU Life Sciences Research Initiative — Individual Award ($200k–$500k). Shatha PI; demo-driven unpark 2026-07-07.
 type: proposal-package
 status: active
-station: S1
-station_note: Intake complete; hypothesis brief + narrative skeleton for CHH demo Jul 8; Shatha-owned PDF by Jul 15
-updated: 2026-07-07
+station: S4
+station_note: Narrative v3 complete (fusion LSRI-H005, punchline rewrite 2026-07-13) + red-teamed; portal fields filled under Berktug session; S5 paste is Shatha-owned (PI login, uploads, final submit by Jul 15). Canonical text = submission/lsri-narrative-word-paste-2026-07-10.md (v3); 10 Jul docx superseded
+updated: 2026-07-13
 ---
 
 # JHU LSRI Individual Award — Proposal Package

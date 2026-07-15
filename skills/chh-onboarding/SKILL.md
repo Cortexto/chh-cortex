@@ -8,9 +8,11 @@ description: Setup wizard for Johns Hopkins CHH Cortex — faculty track (~30 mi
 ## Required reads
 
 1. **`CHH-ROADMAP.md`** (root)
-2. `ENTRY.md`
-3. `_system/CHH-INSTALL.md`
-4. `wiki/partnerships/chh.md`
+2. `CHH-DEPLOYMENT-OPTIONS.md`
+3. `ENTRY.md`
+4. `_system/CHH-INSTALL.md`
+5. `_system/CHH-PHASE1-PLAYBOOK.md` (Track B / center Mac pilot)
+6. `wiki/partnerships/chh.md`
 
 ## Step 0 — Pick the track
 
@@ -33,6 +35,7 @@ description: Setup wizard for Johns Hopkins CHH Cortex — faculty track (~30 mi
 - [ ] Run demo workbench boot
 - [ ] Copy `_template-chh-rfp/` to test slug
 - [ ] Optional: Drive sync per CHH-INSTALL §4
+- [ ] Walk through `_system/CHH-PHASE1-PLAYBOOK.md` week 0–1 rows with curator
 
 ## Output
 
