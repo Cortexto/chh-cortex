@@ -95,6 +95,8 @@ When the same grant moves across tools:
 2. Optional: add `REVIEW-LEDGER.md` in the package for cross-session notes
 3. Say **continue [slug]** — assistant reads ledger + revision log before drafting
 
+**Git handles simultaneous edits** — pull, commit, and resolve conflicts in git. Ledgers (`REVISION-LOG`, `REVIEW-LEDGER`, `CHH-DECISIONS.md`) are **coordination records**, not file locks and not model telemetry. They do not auto-log which AI tool ran.
+
 Skill: `skills/chh-cross-tool-ledger/SKILL.md`
 
 ---

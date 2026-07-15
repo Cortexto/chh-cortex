@@ -31,7 +31,7 @@ Full landing rules: `raw/email/README.md`
 
 Include:
 
-- Grant coordination with partners (Yazdi, Shatha, donors)
+- Grant coordination with partner PIs and donors
 - Reviewer / committee feedback worth remembering
 - Decisions that would otherwise live in one person's inbox
 
@@ -77,6 +77,8 @@ Paste thread below frontmatter (oldest-first or newest-first — stay consistent
 ```
 Use skills/chh-email-triage/SKILL.md on this file.
 ```
+
+**If the assistant cannot find a skill or file:** confirm `chh-cortex/` is open as the workspace/project root, then paste the file path directly.
 
 Or `skills/transcript-triage/SKILL.md` for simple threads.
 

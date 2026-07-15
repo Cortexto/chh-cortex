@@ -8,7 +8,7 @@ updated: 2026-07-15
 # CHH Cortex — Install guide
 
 **Start with `CHH-ROADMAP.md`** (root) for what this is and raw vs wiki.  
-**Deployment plan:** `CHH-DEPLOYMENT-OPTIONS.md` · **Phase 1 checklist:** `_system/CHH-PHASE1-PLAYBOOK.md`
+**Deployment plan:** `CHH-DEPLOYMENT-OPTIONS.md` · **Decisions log:** `CHH-DECISIONS.md` · **Phase 1 checklist:** `_system/CHH-PHASE1-PLAYBOOK.md`
 
 **Audience:** Manny Kim, Paul Spiegel, William Weiss, CHH staff
 
@@ -30,7 +30,26 @@ updated: 2026-07-15
 2. Mount `chh-cortex` in your AI tool
 3. Say: *Read CHH-ROADMAP.md and ENTRY.md*
 
+**Non-technical colleagues:** use **Claude Desktop** (or similar) with the folder mounted — not Codex or terminal-first tools.
+
 Updates: Manny pulls from GitHub or replaces Drive copy when HERA publishes a release.
+
+## 2a — Google Antigravity (Manny's stack)
+
+Antigravity does **not** auto-load `CLAUDE.md` / `AGENTS.md` the way Cursor loads rules. You must open the repo as the **project root** and paste-boot every session:
+
+```
+Read CHH-ROADMAP.md then ENTRY.md and confirm the folder contract.
+```
+
+If files on disk "cannot be read," the assistant likely does not have `chh-cortex/` as workspace root — fix that before retrying.
+
+| Host | How rules load |
+|------|----------------|
+| **Cursor** | `.cursor/rules/` (auto) |
+| **Claude Code / Desktop** | `CLAUDE.md` at repo root |
+| **Codex** | `AGENTS.md` at repo root |
+| **Antigravity** | Paste-boot or project instructions — **no auto-load** |
 
 ## 2b — Track B: Clone repo
 

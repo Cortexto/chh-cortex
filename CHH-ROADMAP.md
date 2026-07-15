@@ -8,7 +8,7 @@ updated: 2026-07-15
 # CHH Cortex — Roadmap & guide
 
 **Read this first** on GitHub — Paul, William, Manny, CHH staff.  
-Install: `_system/CHH-INSTALL.md` · **Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · **Phase 1:** `_system/CHH-PHASE1-PLAYBOOK.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
+Install: `_system/CHH-INSTALL.md` · **Deployment:** `CHH-DEPLOYMENT-OPTIONS.md` · **Decisions:** `CHH-DECISIONS.md` · **Phase 1:** `_system/CHH-PHASE1-PLAYBOOK.md` · Demo: `raw/proposals/demo-lsri-workbench-2026/DEMO-READ-ME-FIRST.md`
 
 > **Note:** Content from the old CHH-CONTEXT doc (removed in v0.3) is **here** at repo root.
 

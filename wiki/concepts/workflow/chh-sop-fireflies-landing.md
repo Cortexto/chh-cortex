@@ -65,6 +65,8 @@ redacted: true|false
 Use skills/transcript-triage/SKILL.md and triage this meeting.
 ```
 
+**If the assistant cannot find a skill or file:** confirm `chh-cortex/` is open as the workspace/project root, then paste the file path directly.
+
 Classify: task · decision · project-fact · contact-intel · background · noise.
 
 ### 5 — Link to workbench

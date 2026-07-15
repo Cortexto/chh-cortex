@@ -36,3 +36,4 @@ Never delete prior rows.
 - Workbench files beat chat memory
 - Do not invent decisions not in files
 - Curator approves file writes
+- **Git handles collisions** — ledgers are coordination records, not locks and not model telemetry

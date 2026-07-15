@@ -61,6 +61,8 @@ Produce a one-line purpose + three prep bullets per meeting. No invented context
 
 Or use `skills/chh-meeting-prep/SKILL.md` if installed.
 
+**If the assistant cannot find a skill or file:** confirm `chh-cortex/` is open as the workspace/project root, then paste the file path directly.
+
 ### 4 — Triage (optional, weekly)
 
 ```
